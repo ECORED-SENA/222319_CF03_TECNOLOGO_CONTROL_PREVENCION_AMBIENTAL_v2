@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Alistamiento de materiales, equipos e insumos, para la toma de muestras'
