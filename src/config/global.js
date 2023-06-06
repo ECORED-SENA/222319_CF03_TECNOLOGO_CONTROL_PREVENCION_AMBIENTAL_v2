@@ -162,24 +162,24 @@ export default {
     {
       tema: 'Alistamiento de la toma de muestras',
       referencia:
-        'EACOL (2015). <em>Monitoreo de ruido –Resolución 627 de 2006 –Colombia</em> [Video] Youtube. ',
+        'Zea, M. <em>Resolución 0627 de 2006 emisión de ruido y ruido ambiental en colombia.</em> [Video] Youtube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=zZd6IZXzz14',
+      link: 'https://www.youtube.com/watch?v=w5JGorU5P0o',
     },
     {
       tema: 'Reconocimiento del material de laboratorio',
       referencia:
-        'Universidad nacional de la Patagonia (2015). <em>Química FI UNPSJB Reconocimiento de material de laboratorio. </em>',
+        'Universidad Pablo de Olavide de Sevilla (2015). <em>Identificación y manejo de material de laboratorio.</em>',
       tipo: 'Documento',
       link:
-        'http://www.ing.unp.edu.ar/asignaturas/quimica/practicos_de_laboratorio_pdf/lab1.pdf',
+        'https://www.upo.es/depa/webdex/quimfis/docencia/quimbiotec/FQpractica1.pdf',
     },
     {
       tema: 'Reconocimiento de material del laboratorio',
       referencia:
-        'Analytical Lab (2015). <em>Seguridad en laboratorio</em> [Video] Youtube ',
+        'Laboratorio Química y Biología ECCI (2020). <em>Reconocimiento de materiales y operaciones básicas de laboratorio.</em> [Video] Youtube ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=oFKUoVhTzW8',
+      link: 'https://www.youtube.com/watch?v=ZI65DSzckFU',
     },
   ],
   glosario: [
@@ -328,6 +328,24 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
+          nombre: 'Carmen Alicia Martínez Torres',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Storyboard e ilustración',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
           nombre: 'Blanca Flor Tinoco Torres',
           cargo: 'Diseñador web',
           centro:
@@ -340,9 +358,10 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Emilsen Alfonso Bautista',
+          cargo: 'Actividad didáctica',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -350,14 +369,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Luis Gabriel Urueta Álvarez',
+          cargo: 'Validador de Recursos Educativos Digitales',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },

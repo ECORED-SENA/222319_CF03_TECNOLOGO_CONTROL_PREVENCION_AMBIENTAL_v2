@@ -16,11 +16,15 @@
 
           .col-md-12
             h3.subt.text-white.mb-4(data-aos="fade") Equipos y materiales para toma de muestras de agua
-            p(data-aos="fade") Existen algunos parámetros que por sus características o inestabilidad deben ser medidos en el lugar de la recolección (In situ). Entre estos, dependiendo del tipo de agua y su fin, es posible encontrar la temperatura, olor, color, pH, cloro, conductividad, entre otros.
-            p.mb-4(data-aos="fade") La medición de los parámetros in situ se puede hacer directamente en el cuerpo de agua o extrayendo una muestra mediante el uso de los recipientes adecuados. Siendo necesario tener en cuenta las siguientes recomendaciones:
+            p(data-aos="fade") Existen algunos parámetros que por sus características o inestabilidad deben ser medidos en el lugar de la recolección (
+              em In situ
+              | ). Entre estos, dependiendo del tipo de agua y su fin, es posible encontrar la temperatura, olor, color, pH, cloro, conductividad, entre otros.
+            p.mb-4(data-aos="fade") La medición de los parámetros 
+              em in situ 
+              | se puede hacer directamente en el cuerpo de agua o extrayendo una muestra mediante el uso de los recipientes adecuados. Siendo necesario tener en cuenta las siguientes recomendaciones:
 
           .col-md-6.mb-4(data-aos="fade-right")
-            ul.lista-ul--color.color-secundario.ps-md-3
+            ul.lista-ul--color.color-secundario.ps-md-3.fa-ul 
               li.mb-md-3
                 i.fas.fa-check
                 | Los equipos de medición deben ser calibrados y verificados antes de la medición.
@@ -39,7 +43,7 @@
     .row.justify-content-center.mb-5
       .col-md-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 8] Equipos y materiales para la toma de muestras de agua
+            p.mb-0 #[b Tabla 8.] Equipos y materiales para la toma de muestras de agua
           .tabla-a.tema1.color-secundario
             table
               thead
@@ -110,34 +114,44 @@
 
           p.mb-4(data-aos="fade") Otros equipos utilizados en campo son:
 
-          .col-md-7.mb-4(data-aos="fade-right")
+          .col-md-12.mb-4(data-aos="fade-right")
             .tarjeta.fondo-sliderA.p-4.p-md-5.px-md-4.pb-md-3
               SlyderA(tipo="b" data-aos="fade-down")
-                .row.justify-content-center
-                  .col-md-11
+                .row.justify-content-center.align-items-center
+                  .col-md-7
                     h4 Equipo multiparámetro 
                     p Para determinación del pH, Conductividad, Temperatura, Oxígeno disuelto, ORP y turbidez. Los diferentes modelos multiparamétricos portátiles son instrumentos de medición muy precisos pensados para aplicaciones móviles en los que sea necesario medir más de un parámetro. Se cuenta con sensores digitales inteligentes IDS donde la señal de medición no se procesa en el instrumento, sino que se genera directamente en el sensor.
-                .row.justify-content-center
-                  .col-md-11
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema3/img2.png' alt='')  
+                .row.justify-content-center.align-items-center
+                  .col-md-7
                     h4 Reactivos de calibración del multiparámetro.  
                     p Son soluciones para calibrar los equipos en campo.
-                .row.justify-content-center
-                  .col-md-11
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema3/img2-2.png' alt='')
+                .row.justify-content-center.align-items-center
+                  .col-md-7
                     h4 Equipo termohigrómetro  
                     p El termohigrómetro es una combinación de termómetro e higrómetro digital, para medir y visualizar los valores del ambiente, en su pantalla se muestra la temperatura y la humedad del aire.
-                .row.justify-content-center
-                  .col-md-11
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema3/img2-3.png' alt='')
+                .row.justify-content-center.align-items-center
+                  .col-md-7
                     h4 Equipo GPS Geoposicionador  
                     p El Geoposicionador (GPS) es un sistema de radionavegación de los Estados Unidos de América, basado en el espacio, que proporciona servicios fiables de posicionamiento, navegación, y cronometría gratuita e ininterrumpidamente a usuarios civiles en todo el mundo. A todo el que cuente con un receptor del GPS, el sistema le proporcionará su localización y la hora exacta en cualesquiera condiciones atmosféricas, de día o de noche, en cualquier lugar del mundo y sin límite al número de usuarios simultáneos.
-                .row.justify-content-center
-                  .col-md-11
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema3/img2-4.png' alt='')
+                .row.justify-content-center.align-items-center
+                  .col-md-7
                     h4 Equipo Cámara fotográfica  
                     p Tomar fotografías del lugar, los puntos de muestreo y las actividades realizadas de toma de muestra.
-                .row.justify-content-center
-                  .col-md-11
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema3/img2-5.png' alt='')
+                .row.justify-content-center.align-items-center
+                  .col-md-7
                     h4 Equipos para protección personal para la toma de muestra 
                     p Para protección y seguridad de las personas que efectúan el muestreo 
-                    ol.lista-ol
+                    ol.lista-ol.fa-ul
                       li.mb-0 
                         span 1.
                         | Overol impermeable para muestreo o aforo 
@@ -156,11 +170,13 @@
                       li.mb-0
                         span 6.
                         | Botiquín de primeros auxilios
-                .row.justify-content-center
-                  .col-md-11
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema3/img2-6.png' alt='')
+                .row.justify-content-center.align-items-center
+                  .col-md-7
                     h4 Equipos utilizados en caudal / aguas superficiales   
                     p Equipo para aforo 
-                    ol.lista-ol
+                    ol.lista-ol.fa-ul 
                       li.mb-0 
                         span 1.
                         | Cinta métrica
@@ -191,8 +207,8 @@
                       li.mb-0
                         span 10.
                         | Tuberia de pvc
-          .col-md-5.mb-4(data-aos="fade-left")
-            img(src='@/assets/curso/temas/tema3/img2.png' alt='Imagen decorativa')
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema3/img2-7.png' alt='')
 
 
     h3.subt.text-white.mb-4(data-aos="fade") Equipos y materiales para toma de muestras de suelo
@@ -203,7 +219,7 @@
       .col-md-5.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema3/img3.png' alt='Imagen decorativa')
       .col-md-7.mb-4(data-aos="fade-left")
-        ul.lista-ul--color.color-secundario
+        ul.lista-ul--color.color-secundario.fa-ul 
           li.mb-3
             i.fas.fa-check
             | Tabla de apoyo con agarradera para escribir.
@@ -246,21 +262,21 @@
             .col-md-5.col-5
               img(src='@/assets/curso/temas/tema3/ico2.svg' alt='Icono decorativo')
           h5 Juego de tamices de bolsillo  
-          p.mb-0 Juego de tamices manuales, tamaño de bolsillo Altura: 40 mm Contiene 6 discos intercambiables Tamaño de poro: 2,0 – 1,0-0,5-0,25-0,125 y 0,063 mm Diámetro 100mm
+          p.mb-0 Juego de tamices manuales, tamaño de bolsillo Altura: 40 mm Contiene 6 discos intercambiables Tamaño de poro: 2,0 – 1,0-0,5-0,25-0,125 y 0,063 mm Diámetro 100mm.
       .col-md-3.mb-4
         .bg-blue3.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-5.col-5
               img(src='@/assets/curso/temas/tema3/ico3.svg' alt='Icono decorativo')
           h5 Penetrómetro de bolsillo 
-          p.mb-0 Se utiliza específicamente para determinar la resistencia a la penetración de las capas superiores del suelo. Precisión de lectura: 3% Profundidad máxima de medición 1 cm Intervalo de medición 0 – 500 kPa
+          p.mb-0 Se utiliza específicamente para determinar la resistencia a la penetración de las capas superiores del suelo. Precisión de lectura: 3% Profundidad máxima de medición 1 cm Intervalo de medición 0 – 500 kPa.
       .col-md-3.mb-4  
         .bg-green2.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-5.col-5
               img(src='@/assets/curso/temas/tema3/ico4.svg' alt='Icono decorativo')
           h5 Medidor de esfuerzo de corte
-          p.mb-0 Es un instrumento diseñado para la determinación de la resistencia al corte de los suelos. Contiene 3 anillos para un amplio rango de medición. Se requiere una superficie plana de 25 mm de diámetro. Rango de medición 0 -250 kPa
+          p.mb-0 Es un instrumento diseñado para la determinación de la resistencia al corte de los suelos. Contiene 3 anillos para un amplio rango de medición. Se requiere una superficie plana de 25 mm de diámetro. Rango de medición 0 -250 kPa.
 
 
     h3.subt.text-white.mb-4(data-aos="fade") Equipos y materiales para toma de muestras de olores
@@ -288,8 +304,8 @@
             p Bolsas para toma de muestras de gas están fabricados de Nalophan® estas están diseñadas específicamente para responder a las exigencias de calidad de la norma EN 13725, especialmente para minimizar el riesgo de contaminación de muestras, su tamaño puede variar 8, 10 40 o 60 Lt.
           .row.justify-content-center(titulo="Olfatómetro")
             p Es un equipo que permite crear una serie calibrada de diluciones discretas mediante la mezcla del olor ambiental con aire libre de olor. La olfatometría de campo calcula el parámetro “Dilución hasta el Umbral” (D/T) como el cociente (proporción):
-            .col-md-4
-              img(src='@/assets/curso/temas/tema3/form.svg' alt='Fórmula')
+            .col-md-5
+              img.px-md-2(src='@/assets/curso/temas/tema3/form.svg' alt='Fórmula')
           .row(titulo="TGPS Sistema de Posicionamiento Global")
             p Es un instrumento de localización que toma como referencia para la ubicación y navegación los satélites que están estacionados en la órbita del planeta, permiten determinar la posición de un objeto o persona con una precisión de hasta 1 metro, su funcionamiento o sistema de navegación se reporta en grados, minutos y segundos ubicando la longitud y la latitud del punto que se va a referenciar.
           .row(titulo="Estación Meteorológica Portátil")
@@ -308,29 +324,43 @@
 
           .col-md-3.mb-4.mb-md-5.px-md-0(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema3/img6.png' alt='Imagen decorativa')
-          .col-md-7.mb-4.mb-md-5.px-md-0(data-aos="fade-left")
+          .col-md-9.mb-4.mb-md-5.px-md-0(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
-                h5 Sonómetro   
-                p Internacionalmente los sonómetros que son aceptados son del tipo CLASE 1, los cuales son empleados para hacer las mediciones de ruido ambiental de acuerdo con especificaciones técnicas internacionales que establecen una precisión mayor en la medición. 
-                p La Precisión de los sonómetros según la norma IEC 61672. 
-                p Clase 1 Precisión ± 1 dB 
-                p Clase 2 Precisión ± 1.5 dB
+                .col-md-8
+                  h5 Sonómetro   
+                  p Internacionalmente los sonómetros que son aceptados son del tipo CLASE 1, los cuales son empleados para hacer las mediciones de ruido ambiental de acuerdo con especificaciones técnicas internacionales que establecen una precisión mayor en la medición. 
+                  p La Precisión de los sonómetros según la norma IEC 61672. 
+                  p.mb-0 Clase 1. Precisión ± 1 dB
+                  p Clase 2. Precisión ± 1.5 dB
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img1.png' alt='')
               .row
-                h5 Pistófono o Calibrador acústico    
-                p Según el “Protocolo para la medición de emisión de ruido, ruido ambiental” La verificación y/o ajuste de la calibración de los sonómetros se deben realizar con calibradores o pistófonos que cumplan con la norma IEC 60942:2003. 
-                p Se debe verificar el cumplimiento del calibrador o pistófono con los requisitos de la norma IEC 60942:2003 por lo menos una vez al año y el cumplimiento del sonómetro con los requisitos de la norma IEC 61672-1:2002 según la clase del sonómetro por lo menos cada dos años en un laboratorio con trazabilidad a patrones nacionales.
+                .col-md-8
+                  h5 Pistófono o Calibrador acústico    
+                  p Según el “Protocolo para la medición de emisión de ruido, ruido ambiental” La verificación y/o ajuste de la calibración de los sonómetros se deben realizar con calibradores o pistófonos que cumplan con la norma IEC 60942:2003. 
+                  p Se debe verificar el cumplimiento del calibrador o pistófono con los requisitos de la norma IEC 60942:2003 por lo menos una vez al año y el cumplimiento del sonómetro con los requisitos de la norma IEC 61672-1:2002 según la clase del sonómetro por lo menos cada dos años en un laboratorio con trazabilidad a patrones nacionales.
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img2.png' alt='')
               .row
-                h5 Trípode    
-                p Estructura u armazón de 3 puntos de apoyo, generalmente articulados y plegables. Sirve para sostener el sonómetro cuya capacidad de extensión telescópica debe ser hasta de 4 metros de altura el giro sobre su propio eje debe ser de 360º para poder hacer las mediciones en los diferentes puntos de acuerdo a lo establecido en el protocolo para el monitoreo de ruido MADS
+                .col-md-8
+                  h5 Trípode    
+                  p Estructura u armazón de 3 puntos de apoyo, generalmente articulados y plegables. Sirve para sostener el sonómetro cuya capacidad de extensión telescópica debe ser hasta de 4 metros de altura el giro sobre su propio eje debe ser de 360º para poder hacer las mediciones en los diferentes puntos de acuerdo a lo establecido en el protocolo para el monitoreo de ruido MADS
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img3.png' alt='')
               .row
-                h5 Anemómetro   
-                p Se emplea, en este caso, para medir la velocidad (fuerza del viento) y la dirección del viento. Es uno de los aparatos meteorológicos que se deben emplear en la medición del ruido puesto que su función consiste en determinar si la velocidad del viento está por encima de los 3 m/s.
+                .col-md-8
+                  h5 Anemómetro   
+                  p Se emplea, en este caso, para medir la velocidad (fuerza del viento) y la dirección del viento. Es uno de los aparatos meteorológicos que se deben emplear en la medición del ruido puesto que su función consiste en determinar si la velocidad del viento está por encima de los 3 m/s.
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img4.png' alt='')
               .row
-                h5 GPS Sistema de Posicionamiento Global    
-                p Es un instrumento de localización que toma como referencia, para la ubicación y navegación, los satélites que están estacionados en la órbita del planeta. Permiten determinar la posición de un objeto o persona con una precisión de hasta 1 metro, su funcionamiento o sistema de navegación se reporta en grados, minutos y segundos ubicando la longitud y la latitud del punto que se va a referenciar. 
-                p Ubica con mucha precisión los puntos en donde se va a ubicar los puntos del monitoreo.
-
+                .col-md-8
+                  h5 GPS Sistema de Posicionamiento Global    
+                  p Es un instrumento de localización que toma como referencia, para la ubicación y navegación, los satélites que están estacionados en la órbita del planeta. Permiten determinar la posición de un objeto o persona con una precisión de hasta 1 metro, su funcionamiento o sistema de navegación se reporta en grados, minutos y segundos ubicando la longitud y la latitud del punto que se va a referenciar. 
+                  p Ubica con mucha precisión los puntos en donde se va a ubicar los puntos del monitoreo.
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img5.png' alt='')
 
 
 

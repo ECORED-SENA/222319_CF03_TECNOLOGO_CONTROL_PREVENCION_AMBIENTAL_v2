@@ -164,6 +164,14 @@
 
 .lista-ul--color.color-secundario li > i:first-of-type
   color: $color-secundario
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
 
 .tabs-a__tab
   background-color: #E8E8E8
@@ -192,6 +200,12 @@
   width: 27%
 .tabla-a.tema2 .colum-1
   width: 30%
+.tema1-1 th, .tema1-1 td
+  padding: 9px
+.border-table-right 
+  border-right-color: #12263F !important
+.border-table-bottom
+  border-bottom-color: #12263F !important
 
 .hover-tema2
   transition: all 0.4s ease-out
@@ -238,9 +252,9 @@
   -moz-transform: translateY(80%)
   transform: translateY(80%)
 .nav-holder2:hover:before
-  -webkit-transform: translateY(50%)
-  -moz-transform: translateY(50%)
-  transform: translateY(50%)
+  -webkit-transform: translateY(35%)
+  -moz-transform: translateY(35%)
+  transform: translateY(35%)
   opacity: 1
   background-color: #0e494de3
   -webkit-transition-delay: 0.1s
@@ -273,9 +287,14 @@
   opacity: 1
 .nav-holder2:hover
   .text
-    top: 50%
+    top: 30%
   h5, p
     opacity: 1
+@media (max-width: 992px)
+  .nav-holder2:hover .text
+    top: 0%
+  .nav-holder2:hover:before
+    transform: translateY(0%)
 
 
 @media (min-width: $bp-min-xl)

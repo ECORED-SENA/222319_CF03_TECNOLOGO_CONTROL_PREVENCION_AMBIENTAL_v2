@@ -11,14 +11,17 @@
 
     
     .tarjeta.bg-green.mb-5.p-4(data-aos="fade")
-      p.mb-0 Tenga, usted, una jovial bienvenida al estudio del componente formativo “Alistamiento de materiales, equipos e insumos, para la toma de muestras”. Comience observando con atención el vídeo que se muestra enseguida. ¡Adelante!
+      p.mb-0 Tenga, usted, una jovial bienvenida al estudio del componente formativo “
+        b Alistamiento de materiales, equipos e insumos, para la toma de muestras
+        | ”. Comience observando con atención el vídeo que se muestra enseguida. ¡Adelante!
 
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/j2kkl2_KG5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Alistamiento de materiales, equipos e insumos, para la toma de muestras
 
 
-    
+
 </template>
 
 <script>

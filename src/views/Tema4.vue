@@ -12,7 +12,9 @@
       .col-md-5.mb-4(data-aos="fade-right")
         p Se trata de todo aquel material que puede ser empleado en un laboratorio (puede ser de vidrio, madera, metal, plástico, goma y porcelana) para realizar las típicas actividades que en este tipo de lugares se llevan a cabo: investigaciones, experimentos, estudios especiales sobre recursos, partículas u otros.
         .bg-blue.p-3
-          p.mb-0 El uso de los instrumentos de laboratorio debe estar orientado al objetivo de la muestra, teniendo en cuenta las características requeridas para muestras fisicoquímicas y microbiológicas; si el procesamiento de la misma será in situ o si se requiere de algún equipo o herramienta.
+          p.mb-0 El uso de los instrumentos de laboratorio debe estar orientado al objetivo de la muestra, teniendo en cuenta las características requeridas para muestras fisicoquímicas y microbiológicas; si el procesamiento de la misma será 
+            em in situ 
+            | o si se requiere de algún equipo o herramienta.
       .col-md-7.mb-4(data-aos="fade-left")  
         img(src='@/assets/curso/temas/tema4/img.png' alt='Imagen decorativa')
 
@@ -23,7 +25,7 @@
 
           .col-md-12
             h3.subt.text-white.mb-4(data-aos="fade") Recipientes, reactivos e insumos
-            p(data-aos="fade") Los recipientes para la toma de muestras más usados para exámenes físicos- químicos y microbiológico, son de vidrio y plástico y varían de acuerdo con la muestra y sus componentes. En algunos casos es requerido el uso de un blanco del recipiente para descartar interferencias.
+            p(data-aos="fade") Los recipientes para la toma de muestras más usados para exámenes físicos-químicos y microbiológico, son de vidrio y plástico y varían de acuerdo con la muestra y sus componentes. En algunos casos es requerido el uso de un blanco del recipiente para descartar interferencias.
             p.mb-4(data-aos="fade") En relación con los recipientes y su material de fabricación, tenga presente: 
 
           h5.text-center.mb-4(data-aos="fade") Características y requisitos del material de recipientes de laboratorio
@@ -35,7 +37,7 @@
                   .col-md-2.col-5
                     img(src='@/assets/curso/temas/tema4/ico1.svg' alt='Icono decorativo')
                 h5 Recipientes de vidrio
-                ul.lista-ul--color.color-secundario
+                ul.lista-ul--color.color-secundario.fa-ul 
                   li.mb-md-1
                     i.fas.fa-check
                     | Deben ser resistentes a altas temperaturas, ya que deben ser esterilizados a temperaturas de 120 ºC o 160ºC para garantizar que los recipientes están libres de microorganismos antes de la toma de la muestra.
@@ -53,7 +55,7 @@
                 h5 Recipientes de plástico
                 p Los recipientes de plástico deben ser de polietileno, policarbonato o teflón si se requiere. El uso de botellas de plástico es recomendado para la toma de muestras a las que se les va a determinar sustancias inorgánicas.
                 p Características importantes:
-                ul.lista-ul--color.color-secundario
+                ul.lista-ul--color.color-secundario.fa-ul 
                   li.mb-md-1
                     i.fas.fa-check
                     | Preferiblemente livianos y resistentes.
@@ -107,21 +109,48 @@
           .row.align-items-end.justify-content-center
             .col-md-3.mb-4.mb-md-0.px-md-0(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema4/img3.svg' alt='Imagen decorativa')
-            .col-md-7.mb-4.mb-md-0.px-md-0(data-aos="fade-left")
+            .col-md-9.mb-4.mb-md-0.px-md-0(data-aos="fade-left")
               h5.px-md-4.mb-4 Otras recomendaciones son:
               SlyderE.bg-white.box-shadow.p-4.py-md-3(indicadores="derecha")
-                .row
-                  p Cuando el objetivo es obtener muestras de agua a profundidades determinadas, se emplean botellas colectoras dotadas de mecanismos de cierre para confinar la masa de agua que se encuentra a la profundidad de interés.
-                .row
-                  p En estudios oceanográficos, se emplean normalmente botellas Nansen para el análisis de los parámetros fisicoquímicos, pH, salinidad, oxígeno disuelto y nutrientes inorgánicos.
-                .row
-                  p Las botellas Van Dorn y Niskin, por tener capacidad de mayor volumen, son ideales para la obtención de muestras en el análisis de pigmentos fotosintéticos y contaminantes (pesticidas, metales pesados, etc.).
-                .row
-                  p Hay que tener bastante precaución cuando se usan estas botellas en el muestreo de aguas con alto contenido de sólidos sedimentables; su forma alargada y un flujo muy lento para extraer la muestra por las llaves, facilitan la sedimentación de los sólidos provocando diferencia en este parámetro entre las primeras y las últimas botellas receptoras que se llenan.
+                .row.align-items-center
+                  .col-md-8
+                    p Cuando el objetivo es obtener muestras de agua a profundidades determinadas, se emplean botellas colectoras dotadas de mecanismos de cierre para confinar la masa de agua que se encuentra a la profundidad de interés.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img1.png' alt='')
+                .row.align-items-center
+                  .col-md-8
+                    p En estudios oceanográficos, se emplean normalmente botellas Nansen para el análisis de los parámetros fisicoquímicos, pH, salinidad, oxígeno disuelto y nutrientes inorgánicos.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img2.png' alt='')
+                .row.align-items-center
+                  .col-md-8
+                    p Las botellas Van Dorn y Niskin, por tener capacidad de mayor volumen, son ideales para la obtención de muestras en el análisis de pigmentos fotosintéticos y contaminantes (pesticidas, metales pesados, etc.).
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img3.png' alt='')
+                .row.align-items-center
+                  .col-md-8
+                    p Hay que tener bastante precaución cuando se usan estas botellas en el muestreo de aguas con alto contenido de sólidos sedimentables; su forma alargada y un flujo muy lento para extraer la muestra por las llaves, facilitan la sedimentación de los sólidos provocando diferencia en este parámetro entre las primeras y las últimas botellas receptoras que se llenan.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img4.png' alt='')
+                .row.align-items-center
+                  .col-md-8
+                    p La botella Van Dorn horizontal es adecuada para colectar muestras de fondo en cuerpos de agua muy someros, siendo muy apropiada para estudios de estratificación vertical, termoclinas y termohalinas en lagunas costeras, mientras que las de funcionamiento vertical permiten colectar muestras a mayores profundidades.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img5.png' alt='')
+                .row.align-items-center
+                  .col-md-8
+                    p La recolección de muestras para el análisis de hidrocarburos requiere un equipo de muestreo especial; la muestra se debe recolectar en la misma botella de almacenamiento (que debe ser de vidrio) y a una profundidad de un metro, por lo cual no es posible utilizar ninguna de las mencionadas anteriormente.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img6.png' alt='')
 
 
     h3.subt.text-white.mb-4(data-aos="fade") Equipo de muestreo automático
-    p.mb-5(data-aos="fade") Es importante resaltar que también existen tomadores de muestras instrumentados y a menudo automatizados. Dentro de estos existen dos tipos principales: los dependientes del tiempo, que recogen muestras discretas, compuestas o continuas y los dependientes del volumen que también recogen estos tipos de muestra y tienen en cuenta las variaciones en el flujo.
+    .bg-green2.tarjeta.p-4.mb-5(data-aos="fade")
+      .row.align-items-center
+        .col-md-2.mb-4.mb-md-0
+          img(src='@/assets/curso/temas/tema4/img8.png' alt='')
+        .col-md-10.mb-4.mb-md-0
+          p.mb-0 Es importante resaltar que también existen tomadores de muestras instrumentados y a menudo automatizados. Dentro de estos existen dos tipos principales: los dependientes del tiempo, que recogen muestras discretas, compuestas o continuas y los dependientes del volumen que también recogen estos tipos de muestra y tienen en cuenta las variaciones en el flujo.
 
 
     h3.subt.text-white.mb-4(data-aos="fade") Equipos para análisis
@@ -205,7 +234,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 Material de Laboratorio
-                  p.mb-0 Refuerce su conocimiento de los materiales de laboratorio, estudiando con atención el contenido del Anexo_3_MaterialDeLaboratorio.
+                  p.mb-0 Refuerce su conocimiento de los materiales de laboratorio, estudiando con atención el contenido del siguiente anexo:
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_3_MaterialDeLaboratorio.pdf')" target="_blank")
                     span Descargar
@@ -222,7 +251,7 @@
         img(src='@/assets/curso/temas/tema4/img5.png' alt='Imagen decorativa')
       .col-md-7.mb-4(data-aos="fade-left")
         p En relación con el manejo de los tubos de ensayo, tenga presente:
-        ul.lista-ul--color.color-secundario.ps-md-3
+        ul.lista-ul--color.color-secundario.ps-md-3.fa-ul 
           li.mb-md-3
             i.fas.fa-check
             | No use tubos de ensayo que tengan rotura cerca del borde, el calor somete al vidrio a tensiones y el tubo bajo la acción de la pinza puede romperse fácilmente.

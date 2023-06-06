@@ -47,10 +47,10 @@
     h3.subt.text-white.mb-4(data-aos="fade") Hojas de seguridad de productos químicos
 
     .row.mb-4
+      p El manejo de diferentes sustancias químicas para el procesamiento de muestras de agua tanto en campo como en laboratorio, implica un riesgo para el personal que las manipula, este riesgo debe ser controlado, desde el almacenamiento, compra y transporte de la sustancia hasta el momento en el cual se materialice un accidente relacionado a ese producto.
+      p Es por esto que debe existir un instrumento que le permita a las personas involucradas (empleados o comunidad) o al personal de asistencia médica (o de servicios de respuesta ante emergencias), saber los compuestos, el tipo de manipulación, cómo almacenarla y cómo reaccionar ante un accidente con la misma.
+      p.mb-4 Para profundizar sus conocimientos y habilidades para el manejo seguro de productos químicos, preste atención a lo siguiente:
       .col-md-9.mb-4(data-aos="fade-right")
-        p El manejo de diferentes sustancias químicas para el procesamiento de muestras de agua tanto en campo como en laboratorio, implica un riesgo para el personal que las manipula, este riesgo debe ser controlado, desde el almacenamiento, compra y transporte de la sustancia hasta el momento en el cual se materialice un accidente relacionado a ese producto.
-        p Es por esto que debe existir un instrumento que le permita a las personas involucradas (empleados o comunidad) o al personal de asistencia médica (o de servicios de respuesta ante emergencias), saber los compuestos, el tipo de manipulación, cómo almacenarla y cómo reaccionar ante un accidente con la misma.
-        p.mb-4 Para profundizar sus conocimientos y habilidades para el manejo seguro de productos químicos, preste atención a lo siguiente:
         TabsA.tema5.color-acento-botones
           .tarjeta.bg-green3.p-4(titulo="Instrumento: Hojas de seguridad")
             h5 Instrumento: Hojas de seguridad
@@ -74,7 +74,7 @@
       .col-md-5.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema5/img4.png' alt='Imagen decorativa')
       .col-md-7.mb-4(data-aos="fade-left")
-        ul.lista-ul--color.color-secundario.ps-3.mb-0
+        ul.lista-ul--color.color-secundario.ps-3.mb-0.fa-ul 
           li.mb-0
             i.fas.fa-check
             | Identificación del producto.
@@ -142,7 +142,7 @@
         img(src='@/assets/curso/temas/tema5/img6.png' alt='Imagen decorativa')
       .col-md-8.mb-4(data-aos="fade-left")
         p Entre otros, los beneficios de un manual de operaciones son:
-        ul.lista-ul--color.color-secundario.ps-3.mb-4
+        ul.lista-ul--color.color-secundario.ps-3.mb-4.fa-ul 
           li.mb-0
             i.fas.fa-check
             | Brinda el conocimiento de operación.
@@ -156,7 +156,7 @@
             i.fas.fa-check
             | Es la base para mantener la forma de trabajar o en su caso mejorarla.
         p Un manual debe tener una estructura formal, para ello es muy importante que cuente elementos como:
-        ul.lista-ul--color.color-secundario.ps-3.mb-0
+        ul.lista-ul--color.color-secundario.ps-3.mb-0.fa-ul 
           li.mb-0
             i.fas.fa-check
             | Portada.

@@ -63,8 +63,13 @@
             p Esto sucede cuando las nubes se topan con vientos más fríos o cuando ascienden y se enfrían al encontrarse con la ladera de una montaña.
           .div(numero="3" titulo="Interacción de las características del aire")
             p Por ejemplo, y por lo cual se generan las precipitaciones: 
-            p.mb-0 Su densidad y temperatura disminuyen cuando aumenta la altitud. 
-            p El aire caliente puede contener más humedad que el aire frío.
+            ul.lista-ul--color.color-secundario.mb-0
+              li.mb-0
+                i.fas.fa-check
+                | Su densidad y temperatura disminuyen cuando aumenta la altitud. 
+              li.mb-0
+                i.fas.fa-check
+                | El aire caliente puede contener más humedad que el aire frío.
           .div(numero="4" titulo="Intensidad o ausencia de lluvias")
             p Llueve más en las laderas que se oponen a los vientos húmedos. En la cordillera de los Andes, los vientos cargados de agua vienen del Océano Pacífico y la descargan en las laderas occidentales. En la zona ecuatorial, también traen las lluvias algunos vientos que acumulan la humedad que produce la transpiración de las plantas de la selva amazónica.
           .div(numero="5" titulo="Ruta cíclica del agua")
@@ -74,7 +79,9 @@
           .div(numero="7" titulo="Manantiales de agua")
             p Las reservas de agua subterránea pueden volver a la superficie formando manantiales. Los manantiales dan origen a arroyos que luego se unirán a otras aguas de escurrimiento superficial. Así, se originan los ríos que devolverán a los mares y océanos el agua caída sobre el suelo.
           .div(numero="8" titulo="Interrupción del ciclo del agua")
-            p Las precipitaciones devuelven al suelo, mares y océanos el agua evaporada por el calor del sol. Este ciclo no se interrumpe jamás. Cuando el agua cae sobre la tierra, se infiltra lentamente en los suelos que contienen materia orgánica. Lo mismo sucede en los terrenos cubiertos de vegetación, porque el follaje atenúa el impacto de la lluvia.
+            p Las precipitaciones devuelven al suelo, mares y océanos el agua evaporada por el calor del sol. Este ciclo 
+              b no se interrumpe jamás
+              |. Cuando el agua cae sobre la tierra, se infiltra lentamente en los suelos que contienen materia orgánica. Lo mismo sucede en los terrenos cubiertos de vegetación, porque el follaje atenúa el impacto de la lluvia.
           .div(numero="9" titulo="Acumulación natural del agua")
             p En zonas llanas, el agua puede acumularse en la superficie de los suelos arcillosos y carentes de humus, provocando inundaciones. Si los terrenos son llanos, arenosos y desprovistos de materia orgánica y vegetación protectora, el agua se infiltra con rapidez, llevándose los nutrientes del suelo hacia las aguas subterráneas.
 
@@ -93,7 +100,7 @@
             .row.justify-content-center
               .col-md-11
                 h4 Afectación a la vida de flora y fauna     
-                ul.lista-ul--color.color-secundario
+                ul.lista-ul--color.color-secundario.fa-ul 
                   li.mb-3
                     i.fas.fa-check
                     | El agua interviene en todas las funciones vitales de plantas y animales: · Las plantas verdes realizan la fotosíntesis a partir de agua y dióxido de carbono. Sus raíces captan los nutrientes cuando están disueltos en agua. La savia, una solución, distribuye la sustancia orgánica en el interior de las plantas. 
@@ -108,7 +115,7 @@
               .col-md-11
                 h4 El agua y los animales terrestres   
                 p Los animales terrestres la obtienen a través de distintas fuentes: 
-                ul.lista-ul--color.color-secundario
+                ul.lista-ul--color.color-secundario.fa-ul 
                   li.mb-0
                     i.fas.fa-check
                     | Absorbiéndola a través de la superficie corporal (ranas).
@@ -139,7 +146,7 @@
         img(src='@/assets/curso/temas/tema1/img7.png' alt='Imagen decorativa')
       .col-md-8.mb-4(data-aos="fade-left")
         p En las últimas décadas, en relación con el agua y su influencia en la vida de los seres humanos: 
-        ul.lista-ul--color.color-secundario.ps-3.mb-0
+        ul.lista-ul--color.color-secundario.ps-3.mb-0.fa-ul
           li.mb-md-4
             i.fas.fa-check
             | Se han multiplicado las áreas agrícolas dependientes del riego para la producción de alimentos.
@@ -157,7 +164,8 @@
     
     figure(data-aos="fade-down")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Z3Wm7TAPR-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Propiedades del agua
 
 
     Separador 
@@ -174,14 +182,14 @@
           .row.mb-4
             .col-md-2.col-5
               img(src='@/assets/curso/temas/tema1/ico1.svg' alt='Icono decorativo')
-          h5 Las propiedades físicas de un suelo    
+          h5 Propiedades físicas de un suelo    
           p.mb-0 Son el resultado de la interacción que se origina entre las distintas fases del mismo (suelo, agua y aire) y la proporción en la que se encuentran cada una de estas.
       .col-md-6.px-md-0
         .bg-green4.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-2.col-5
               img(src='@/assets/curso/temas/tema1/ico1.svg' alt='Icono decorativo')
-          h5 La condición física de un suelo 
+          h5 Condición física de un suelo 
           p.mb-0 Determina su capacidad de sostenimiento, facilidad para la penetración de raíces, circulación del aire, capacidad de almacenamiento de agua, drenaje, retención de nutrientes, entre otros factores.
 
     p.mb-4.text-center(data-aos="fade") Las propiedades físicas, químicas y biológicas del suelo son:
@@ -193,7 +201,7 @@
             .col-md-3.col-5
               img(src='@/assets/curso/temas/tema1/ico2.svg' alt='Icono decorativo')
           h5 Propiedades físicas 
-          ul.lista-ul--color.color-secundario
+          ul.lista-ul--color.color-secundario.fa-ul 
             li.mb-1
               i.fas.fa-check
               | Textura. 
@@ -205,7 +213,7 @@
               | Color. 
             li.mb-1
               i.fas.fa-check
-              | Densidad Aparente.
+              | Densidad aparente.
             li
               i.fas.fa-check
               | Porosidad capilar.
@@ -215,7 +223,7 @@
             .col-md-3.col-5
               img(src='@/assets/curso/temas/tema1/ico3.svg' alt='Icono decorativo')
           h5 Propiedades químicas  
-          ul.lista-ul--color.color-secundario
+          ul.lista-ul--color.color-secundario.fa-ul 
             li.mb-1
               i.fas.fa-check
               | Reacción del suelo.
@@ -234,60 +242,60 @@
             .col-md-3.col-5
               img(src='@/assets/curso/temas/tema1/ico4.svg' alt='Icono decorativo')
           h5 Propiedades biológicas    
-          ul.lista-ul--color.color-secundario
+          ul.lista-ul--color.color-secundario.fa-ul 
             li.mb-1
               i.fas.fa-check
               | Organismos del suelo.
             li.mb-1
               i.fas.fa-check
-              | Materia Orgánica.
+              | Materia orgánica.
             li.mb-1
               i.fas.fa-check
               | Humus.
             li.mb-1
               i.fas.fa-check
-              | Respiración Edáfica.
+              | Respiración edáfica.
             li
               i.fas.fa-check
-              | Carbono de Biomasas Microbiana.
+              | Carbono de biomasas microbiana.
 
     p.mb-4(data-aos="fade") La tabla que se muestra enseguida, enuncia los tipos de suelos:
 
     .row.justify-content-center.mb-5
       .col-md-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 1] Tipos de suelos y sus características
-          .tabla-a.tema1.color-secundario
+            p.mb-0 #[b Tabla 1.] Tipos de suelos y sus características
+          .tabla-a.tema1.color-secundario.tema1-1
             table
               thead
                 tr.bg-secundario
-                  th.colum-1 Tipo de suelo
+                  th.colum-1.border-table-right Tipo de suelo
                   th Características
               tbody
                 tr
-                  td HUMIFERO
-                  td Es de color oscuro porque tiene abundante humus
-                tr.bg-green4
-                  td ARCILLOSO
-                  td Es de color amarillo o rojizo compuesto de arcilla sí
+                  td.bg-white.border-table-right.border-table-bottom HUMIFERO
+                  td.bg-green4.border-table-bottom Es de color oscuro porque tiene abundante humus
                 tr
-                  td ARENOSO
-                  td De color gris blanco rojizo amarillo o negro compuesto de arena
-                tr.bg-green4
-                  td CALIZO  
-                  td De color blanco amarillento y sus partículas son finas
+                  td.bg-white.border-table-right.border-table-bottom ARCILLOSO
+                  td.bg-green4.border-table-bottom Es de color amarillo o rojizo compuesto de arcilla sí
                 tr
-                  td PEDREGOSO
-                  td De color gris y está formado por rocas de diversos tamaños no retienen el agua
+                  td.bg-white.border-table-right.border-table-bottom ARENOSO
+                  td.bg-green4.border-table-bottom De color gris blanco rojizo amarillo o negro compuesto de arena
+                tr
+                  td.bg-white.border-table-right.border-table-bottom CALIZO  
+                  td.bg-green4.border-table-bottom De color blanco amarillento y sus partículas son finas
+                tr
+                  td.bg-white.border-table-right PEDREGOSO
+                  td.bg-green4 De color gris y está formado por rocas de diversos tamaños no retienen el agua
 
 
     .bg-blue4(data-aos="fade-down")
       .row.align-items-center
         .col-md-2.col-5.px-md-4
-          img.px-md-4(src='@/assets/curso/temas/tema2/importante.svg' alt='Icono decorativo')
+          img.px-md-3.px-lg-4(src='@/assets/curso/temas/tema2/importante.svg' alt='Icono decorativo')
         .col-md-10.py-4.pe-md-5
           p.mb-0 
-            b.t-green2 La contaminación del suelo 
+            b La contaminación del suelo 
             | es una degradación de la calidad del suelo asociada a la presencia de sustancias químicas. Se define como el aumento en la concentración de compuestos químicos, de origen antropogénico, que provoca cambios perjudiciales y reduce su empleo potencial, tanto por parte de la actividad humana, como por la naturaleza.
 
 
@@ -304,12 +312,12 @@
       .col-md-8.mb-4(data-aos="fade-left")
         p Es el resultado de la mezcla de gases que componen la atmósfera terrestre y que gracias a la fuerza de gravedad se encuentran sujetos al planeta Tierra. El aire, así como sucede con el agua, es un elemento fundamental y esencial para asegurar la continuidad de la vida en el planeta. Su composición es sumamente delicada y las proporciones de las sustancias que lo integran resultan ser variables: Nitrógeno, Oxígeno, Vapor de agua, Ozono, dióxido de carbono, Hidrógeno y gases nobles como pueden ser el Criptón o el Argón.
         p Los componentes fundamentales del aire son el 
-          b.t-green2 nitrógeno 
+          b nitrógeno 
           | N2 (78,1%) y el 
-          b.t-green2 oxígeno 
+          b oxígeno 
           | O2 (20,9%), los que en conjunto alcanzan un 99% en volumen de aire seco.
         p Como componentes secundarios se encuentran presentes:
-        ul.lista-ul--color.color-secundario.mb-0.ps-md-4
+        ul.lista-ul--color.color-secundario.mb-0.ps-md-4.fa-ul 
           li.mb-0
             i.fas.fa-check
             | El argón Ar
@@ -365,7 +373,7 @@
     .row.justify-content-center.mb-5
       .col-md-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 1] Tipos de suelos y sus características
+            p.mb-0 #[b Tabla 2.] Tipos de suelos y sus características
           .tabla-a.tema1.color-secundario
             table
               thead
@@ -375,7 +383,7 @@
                 tr
                   td.fw-bold.text-center.colum-1 Físicas
                   td 
-                    ul.lista-ul--color.color-secundario.mb-0
+                    ul.lista-ul--color.color-secundario.mb-0.fa-ul 
                       li.mb-1
                         i.fas.fa-check
                         | Es de menor peso que el agua. 
@@ -394,7 +402,7 @@
                 tr.bg-green4
                   td.fw-bold.text-center.colum-1 Químicas
                   td 
-                    ul.lista-ul--color.color-secundario.mb-0
+                    ul.lista-ul--color.color-secundario.mb-0.fa-ul 
                       li.mb-1
                         i.fas.fa-check
                         | Reacciona con la temperatura condensándose en hielo a bajas temperaturas y produce corrientes de aire.
@@ -409,7 +417,7 @@
     ImagenInfografica.color-acento-botones.mb-5(data-aos="fade-down")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/temas/tema1/img-infog.svg', alt='Niveles de la atmósfera')
+          img(src='@/assets/curso/temas/tema1/img-infog.svg', alt='De acuerdo con la altitud, composición, temperatura y otras características, la atmósfera que rodea a la Tierra comprende las siguientes capas o regiones')
 
       .tarjeta.bg-yellow.p-3(x="19%" y="88%" numero="+")
         .h4.mb-2 Tropósfera: 
@@ -434,7 +442,7 @@
           img.px-md-4(src='@/assets/curso/temas/tema2/importante.svg' alt='Icono decorativo')
         .col-md-10.py-4.pe-md-5
           p.mb-0 
-            b.t-green2 La contaminación del aire 
+            b La contaminación del aire 
             | es uno de los problemas ambientales más importantes, y es resultado de las actividades del hombre. Las causas que originan esta contaminación son diversas, pero el mayor índice es provocado por las actividades industriales, comerciales, domésticas y agropecuarias.
 
 
@@ -528,7 +536,7 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0.text-white
                       h3.mb-1 Normatividad del Aire
-                      p.mb-0 Amplíe sus conocimientos sobre la normatividad que regula el tratamiento y la gestión del aire y los olores, visitando el Anexo_1_NormatividadDelAire.
+                      p.mb-0 Amplíe sus conocimientos sobre la normatividad que regula el tratamiento y la gestión del aire y los olores, visitando el siguiente anexo:
                     .col-sm-auto
                       a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1_NormatividadDelAire.pdf')" target="_blank")
                         span Descargar
@@ -582,7 +590,7 @@
     .row.justify-content-center.mb-4
       .col-md-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 3] Conceptos y definiciones sobre contaminación del aire por ruido
+            p.mb-0 #[b Tabla 3.] Conceptos y definiciones sobre contaminación del aire por ruido
           .tabla-a.tema1.color-secundario
             table
               thead
@@ -617,7 +625,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 Reglamentacion del ruido en Colombia.
-                  p.mb-0 Conozca algunas generalidades de la historia de la reglamentación del ruido en Colombia, estudiando con atención el Anexo_2_ReglamentacionDelRuidoEnColombia.
+                  p.mb-0 Conozca algunas generalidades de la historia de la reglamentación del ruido en Colombia, estudiando con atención el siguiente anexo:
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_ReglamentacionDelRuidoEnColombia.pdf')" target="_blank")
                     span Descargar

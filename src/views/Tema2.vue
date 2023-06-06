@@ -22,7 +22,7 @@
       .col-md-8.mb-4(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-green2")
           .row(titulo="Fiabilidad")
-            p También influye en el clima la orientación de las laderas. Estas variaciones originan distintos pisos de vegetación.
+            p Los grados de significación y fiabilidad de la información a obtener en la muestra es de gran prioridad, para evitar alteraciones en los resultados sea por mala toma de la muestra o mala preservación de la misma.
           .row(titulo="Adecuación del muestreo")
             p Por lo anterior, es importante que la adecuación del muestreo se deba a las peculiares características ambientales de cada sitio.
           .row(titulo="Valor estadístico")
@@ -34,7 +34,7 @@
           .row(titulo="Selección del procedimiento de muestreo ")
             p Por tanto, la selección del procedimiento de muestreo es crucial y de él depende en gran medida que las decisiones tomadas sobre un medio (agua, suelo o aire, potencialmente alterados en su calidad) sean eficaces para abordar y solucionar su problemática.
           .row(titulo="Pasos para la toma de muestras")
-            ul.lista-ul--color.color-secundario.ps-3.mb-0
+            ul.lista-ul--color.color-secundario.ps-3.mb-0.fa-ul
               li.mb-1
                 i.fas.fa-check
                 | Identificación del sitio de muestreo. 
@@ -70,8 +70,8 @@
           .tarjeta.bg-green3.p-4.p-md-5(titulo="Muestreo")
             h5 Muestreo
             p.mb-0 Proceso de toma de muestras que son analizadas en laboratorios para obtener información sobre la calidad del agua del sitio concertado en que fueron tomadas.
-          .tarjeta.bg-green3.p-4.p-md-5(titulo="Cadena de custodi")
-            h5 Cadena de custodi
+          .tarjeta.bg-green3.p-4.p-md-5(titulo="Cadena de custodia")
+            h5 Cadena de custodia
             p.mb-0 Proceso por medio del cual se mantiene una muestra bajo posesión física o control durante su ciclo de vida completo, es decir, desde que se toma hasta que se desecha.
       .col-md-3.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/img4.png' alt='Imagen decorativa')
@@ -90,7 +90,7 @@
       .col-md-3.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img5.png' alt='Imagen decorativa')
       .col-md-9.mb-4(data-aos="fade-left")
-        ul.lista-ul--color.color-secundario.mb-0
+        ul.lista-ul--color.color-secundario.mb-0.fa-ul 
           li.mb-1
             i.fas.fa-check
             | Identificación de la muestra (nombre, código, etc.).
@@ -135,7 +135,7 @@
 
           .col-md-8(data-aos="fade-down")
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 4] Criterios en la ubicación de puntos de muestreo
+              p.mb-0 #[b Tabla 4.] Criterios en la ubicación de puntos de muestreo
             .tabla-a.tema2.color-secundario.mb-5 
               table
                 tbody.bg-white 
@@ -153,7 +153,7 @@
 
           .col-md-8(data-aos="fade-down")
             .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 5] Puntos de muestreo en aguas no aptas para consumo humano
+              p.mb-0 #[b Tabla 5.] Puntos de muestreo en aguas no aptas para consumo humano
             .tabla-a.tema2.color-secundario.mb-5 
               table
                 tbody.bg-white 
@@ -171,7 +171,7 @@
             
           .col-md-3.mb-4.mb-md-0.px-md-0(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema2/img6.svg' alt='Imagen decorativa')
-          .col-md-6.px-md-0(data-aos="fade-left")
+          .col-md-7.px-md-0(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
                 h4 Accesibilidad 
@@ -185,19 +185,28 @@
               .row
                 h4 Información clave   
                 p De cada industria es necesario obtener determinada información que permita establecer los siguientes aspectos:
-                ul.lista-ul--color.color-secundario.mb-0
+                ul.lista-ul--color.color-secundario.mb-0.fa-ul 
                   li.mb-0
                     i.fas.fa-check
                     | Objeto de caracterización (control y seguimiento al permiso de vertimiento).
                   li.mb-0
                     i.fas.fa-check
-                    | Información básica de la empresa (Procesos Productivos). ü Determinación de los sitios de aforo y muestreo (Tipo de PTAR y sus componentes, afluentes y efluentes).
+                    | Información básica de la empresa (Procesos Productivos).
                   li.mb-0
                     i.fas.fa-check
-                    | Método de aforo. ü Tipo de descarga. 
+                    | Determinación de los sitios de aforo y muestreo (Tipo de PTAR y sus componentes, afluentes y efluentes).
+                  li.mb-0
+                    i.fas.fa-check
+                    | Método de aforo.
+                  li.mb-0
+                    i.fas.fa-check
+                    | Tipo de descarga. 
                   li.mb-0
                     i.fas.fa-check
                     | Tipo de muestra (pecuaria, domestica, industrial).
+                  li.mb-0
+                    i.fas.fa-check
+                    | Tipo de fuente receptora.
               .row
                 h4 Definición de la frecuencia de muestreo   
                 p Con lo anterior se define la frecuencia del muestreo (15 minutos, 20 minutos, 30 minutos), los parámetros a determinar, la forma de manejo y preservación de las muestras, los tipos de descarga, los sitios de aforo y muestreo que dan lugar a las posibles adecuaciones necesarias que permiten garantizar la confiabilidad en la toma de muestra y la medición del caudal, ya que la representatividad de ésta depende la veracidad de los resultados.
@@ -208,16 +217,16 @@
     p.mb-4(data-aos="fade") La forma de tomar la muestra y el punto de muestreo es condicionada al lugar de este, es por ello que se deben considerar algunas particularidades. Según las diferentes fuentes de agua las características del muestreo deben ser:
 
     .row.justify-content-center.mb-4.px-md-3(data-aos="fade-down")
-      .col-md-6.mb-md-0.mb-4.px-md-0
+      .col-md-10.col-lg-6.mb-md-0.mb-4.px-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0
             figure
               img(src="@/assets/curso/temas/tema2/img-hover1.png", alt="Pozos de agua")
             .text.p-md-2.px-md-4.p-3
               .row.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h5.mt-4.mt-lg-0.mb-3 Pozos de agua
+                h5.mt-0.mt-lg-0.mb-3 Pozos de agua
                 p Extraer la muestra de agua sólo después que el pozo ha sido bombeado por lo menos durante 15 minutos para asegurar que la muestra representa la calidad de la fuente de agua subterránea.
-      .col-md-6.mb-md-0.mb-4.px-md-0
+      .col-md-10.col-lg-6.mb-md-0.mb-4.px-md-0
         .row.px-2.pt-2.h-100
           .col-12.m-0.nav-holder2.align-items-center.px-0(@mouseover="mostrarIndicador = false")
             .indicador--hover(v-if="mostrarIndicador")
@@ -225,14 +234,14 @@
               img(src="@/assets/curso/temas/tema2/img-hover2.png", alt="Ríos y arroyos")
             .text.p-md-2.px-md-4.p-3
               .row.px-1.pt-1.mt-md-4.pt-md-0.mt-lg-3.mt-xl-4
-                h5.mt-4.mt-lg-0.mb-3 Ríos y arroyos
+                h5.mt-0.mt-lg-0.mb-3 Ríos y arroyos
                 p Cuando se toman muestras de un río o un arroyo, los valores analíticos pueden variar con la profundidad, el caudal del arroyo y por la distancia a las orillas. 
 
     p.mb-4(data-aos="fade") En el proceso, los cuidados a tener en cuenta son:
 
     .row
       .col-md-8.mb-4(data-aos="fade-right")
-        ul.lista-ul--color.color-secundario.ps-3.mb-0
+        ul.lista-ul--color.color-secundario.ps-3.mb-0.fa-ul 
           li.mb-1
             i.fas.fa-check
             | Para que la muestra sea representativa debe ser recolectada a la mitad del área del flujo, independientemente de la modalidad del muestreo.
@@ -258,7 +267,7 @@
       .col-md-4.mb-4(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema2/img8.png' alt='Imagen decorativa')
       .col-md-8(data-aos="fade-left")
-        ul.lista-ul--color.color-secundario.ps-3.mb-0
+        ul.lista-ul--color.color-secundario.ps-3.mb-0.fa-ul 
           li.mb-1
             i.fas.fa-check
             | Las ubicaciones dependen de los objetivos del programa de muestreo, el impacto de las fuentes locales de contaminación y el tamaño del cuerpo de agua. 
@@ -283,13 +292,19 @@
           .col-md-3.mb-4(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema2/img9.png' alt='Imagen decorativa')
           .col-md-9.mb-4(data-aos="fade-left")
-            p Se realiza la respectiva toma de muestra y es indispensable que, a la vez, se realice análisis en campo de algunos parámetros que deben medirse en su lugar original, a esto se le llama laboratorio en campo o ensayos in situ. Se trata de ensayos o mediciones que realizan de algunos parámetros en campo que, por su naturaleza, si no se realiza de manera inmediata, los resultados arrojados posteriormente no serán verídicos.
-            p Para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH, sin embargo, para otro tipo de aguas como las residuales o las superficiales, estos también son aplicables para mediciones in situ incluyendo conductividad, turbidez y oxígeno disuelto; la medición de estos se realiza con el equipo multiparamétrico.
+            p Se realiza la respectiva toma de muestra y es indispensable que, a la vez, se realice análisis en campo de algunos parámetros que deben medirse en su lugar original, a esto se le llama laboratorio en campo o ensayos 
+              em in situ
+              | . Se trata de ensayos o mediciones que realizan de algunos parámetros en campo que, por su naturaleza, si no se realiza de manera inmediata, los resultados arrojados posteriormente no serán verídicos.
+            p Para agua de consumo humano se encuentran dentro de estos parámetros: la temperatura, el olor, el sabor, el cloro residual libre y el pH, sin embargo, para otro tipo de aguas como las residuales o las superficiales, estos también son aplicables para mediciones 
+              em in situ 
+              | incluyendo conductividad, turbidez y oxígeno disuelto; la medición de estos se realiza con el equipo multiparamétrico.
             .bg-blue2.p-4
               p.mb-0 Estas mediciones se realizan generalmente haciendo uso de equipos portátiles como sondas multiparamétricas, pHmetros y conductímetros. Sin embargo, se debe resaltar que para hacer estos análisis siempre se deben considerar las indicaciones de revisión y calibración de los equipos.
 
           .col-md-8.mb-4(data-aos="fade-right")
-            p.mb-4 La siguiente, es la explicación de algunos parámetros medidos in situ y aspectos a tener en cuenta:
+            p.mb-4 La siguiente, es la explicación de algunos parámetros medidos 
+              em in situ 
+              | y aspectos a tener en cuenta:
             .tarjeta.bg-green4.p-4.p-md-5.pb-md-3
               SlyderA(tipo="b" data-aos="fade-down")
                 .row.justify-content-center
@@ -311,11 +326,15 @@
                 .row.justify-content-center
                   .col-md-11
                     h5 Medición de temperatura 
-                    p La medición de temperatura en muestras ambientales debe ser una labor realizada in situ, y no aplica por ello los procedimientos de almacenamiento y preservación. El mejor método para la lectura de este parámetro es introducir directamente los equipos de medición (termómetro o sonda) en el cuerpo de agua.
+                    p La medición de temperatura en muestras ambientales debe ser una labor realizada 
+                      em in situ
+                      | , y no aplica por ello los procedimientos de almacenamiento y preservación. El mejor método para la lectura de este parámetro es introducir directamente los equipos de medición (termómetro o sonda) en el cuerpo de agua.
                 .row.justify-content-center
                   .col-md-11
                     h5 Turbidez 
-                    p La turbidez del agua es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinado con un proceso de difusión. En caso de requerirse la extracción de una muestra para la medición de los parámetros in situ, es recomendable realizar la medición de los parámetros de inmediato para evitar variación de estos.
+                    p La turbidez del agua es provocada por la materia insoluble, en suspensión o dispersión coloidal. Es un fenómeno óptico que consiste esencialmente en una absorción de luz combinado con un proceso de difusión. En caso de requerirse la extracción de una muestra para la medición de los parámetros 
+                      em in situ
+                      | , es recomendable realizar la medición de los parámetros de inmediato para evitar variación de estos.
           .col-md-4(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema2/img10.png' alt='Imagen decorativa')
 
@@ -350,7 +369,7 @@
     .row.justify-content-center.mb-5
       .col-md-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 6] Consideraciones para el diseño del muestreo
+            p.mb-0 #[b Tabla 6.] Consideraciones para el diseño del muestreo
           .tabla-a.tema2.color-secundario
             table
               tbody.bg-white 
@@ -368,6 +387,7 @@
                   td Preferiblemente, se debe realizar un análisis de la información mediante un SIG (Sistema de Información Geográfica). 
 
 
+    h3.subt.text-white.mb-4(data-aos="fade") Localización de los puntos de muestreo
     .row
       .col-md-3.mb-4(data-aos="fade-right")  
         img(src='@/assets/curso/temas/tema2/img13.png' alt='Imagen decorativa')
@@ -392,7 +412,7 @@
                 span.t-green2.fw-bold d)
                 | En gradiente
         p Sobre estos tipos de muestreo se puede tener presente que:
-        ul.lista-ul--color.color-secundario.mb-0
+        ul.lista-ul--color.color-secundario.mb-0.fa-ul 
           li.mb-1
             i.fas.fa-check
             | Los tres primeros tipos (al azar, regular y alternado) situarían los PDM en toda la extensión del área de estudio.  
@@ -523,7 +543,7 @@
     .row.justify-content-center
       .col-md-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 7] Variables en la medición de olores
+            p.mb-0 #[b Tabla 7.] Variables en la medición de olores
           .tabla-a.tema2.color-secundario
             table
               thead
@@ -569,7 +589,7 @@
               h5.mb-0 Diurno: de las 7:01 a las 21:00 horas.
               h5.mb-0 Nocturno: de las 21:01 a las 7:00 horas.
         p En cuanto a los parámetros de medida de ruido, se pueden mencionar los siguientes:
-        ul.lista-ul--color.color-secundario.ps-3
+        ul.lista-ul--color.color-secundario.ps-3.fa-ul 
           li.mb-0
             i.fas.fa-check
             | Nivel de presión sonora continúo equivalente (LAeq,T).
@@ -634,7 +654,9 @@
           .row(titulo="Localización de la medición ")
             p La medición de la emisión de ruido se realiza a 1.5 m de la fachada de una edificación y a 1.20 m a partir del nivel mínimo donde se encuentre instalada la fuente de emisión de ruido.
           .row(titulo="Estudios de ruido ambiental ")
-            p Cuando se realizan los estudios de ruido ambiental, los resultados obtenidos deben ser utilizados para realizar el diagnóstico de los niveles de presión sonora en el ambiente. Los resultados podrán ser llevados a mapas de ruido con el fin de identificar zonas críticas y posibles fuentes de emisión de ruido.
+            p Cuando se realizan los estudios de 
+              b ruido ambiental
+              | , los resultados obtenidos deben ser utilizados para realizar el diagnóstico de los niveles de presión sonora en el ambiente. Los resultados podrán ser llevados a mapas de ruido con el fin de identificar zonas críticas y posibles fuentes de emisión de ruido.
           .row(titulo="Mediciones de emisión de Ruido")
             p Siempre deben hacerse en el espacio público, a 1.50 m del límite de la propiedad en que está instalada la fuente. Con el fin de comparar los resultados con los niveles máximos permisibles de emisión de ruido.
 
