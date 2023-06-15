@@ -274,19 +274,19 @@
               tbody
                 tr
                   td.bg-white.border-table-right.border-table-bottom HUMIFERO
-                  td.bg-green4.border-table-bottom Es de color oscuro porque tiene abundante humus
+                  td.bg-green4.border-table-bottom Es de color oscuro porque tiene abundante humus.
                 tr
                   td.bg-white.border-table-right.border-table-bottom ARCILLOSO
-                  td.bg-green4.border-table-bottom Es de color amarillo o rojizo compuesto de arcilla sí
+                  td.bg-green4.border-table-bottom Es de color amarillo o rojizo compuesto de arcilla sílice.
                 tr
                   td.bg-white.border-table-right.border-table-bottom ARENOSO
-                  td.bg-green4.border-table-bottom De color gris blanco rojizo amarillo o negro compuesto de arena
+                  td.bg-green4.border-table-bottom De color gris blanco rojizo amarillo o negro compuesto de arena.
                 tr
                   td.bg-white.border-table-right.border-table-bottom CALIZO  
-                  td.bg-green4.border-table-bottom De color blanco amarillento y sus partículas son finas
+                  td.bg-green4.border-table-bottom De color blanco amarillento y sus partículas son finas.
                 tr
                   td.bg-white.border-table-right PEDREGOSO
-                  td.bg-green4 De color gris y está formado por rocas de diversos tamaños no retienen el agua
+                  td.bg-green4 De color gris y está formado por rocas de diversos tamaños no retienen el agua.
 
 
     .bg-blue4(data-aos="fade-down")
