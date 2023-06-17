@@ -16,7 +16,7 @@
             em in situ 
             | o si se requiere de algún equipo o herramienta.
       .col-md-7.mb-4(data-aos="fade-left")  
-        img(src='@/assets/curso/temas/tema4/img.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img.png' alt='')
 
 
     .row.fondo-tema4.align-items-center.py-4.mb-2
@@ -35,7 +35,7 @@
               .p-4.px-md-5.h-100
                 .row.mb-4
                   .col-md-2.col-5
-                    img(src='@/assets/curso/temas/tema4/ico1.svg' alt='Icono decorativo')
+                    img(src='@/assets/curso/temas/tema4/ico1.svg' alt='')
                 h5 Recipientes de vidrio
                 ul.lista-ul--color.color-secundario.fa-ul 
                   li.mb-md-1
@@ -51,7 +51,7 @@
               .p-4.px-md-5.h-100
                 .row.mb-4
                   .col-md-2.col-5
-                    img(src='@/assets/curso/temas/tema4/ico1.svg' alt='Icono decorativo')
+                    img(src='@/assets/curso/temas/tema4/ico1.svg' alt='')
                 h5 Recipientes de plástico
                 p Los recipientes de plástico deben ser de polietileno, policarbonato o teflón si se requiere. El uso de botellas de plástico es recomendado para la toma de muestras a las que se les va a determinar sustancias inorgánicas.
                 p Características importantes:
@@ -79,7 +79,7 @@
 
     .row.justify-content-center.align-items-center
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema4/img2.svg' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img2.svg' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         LineaTiempoD.color-secundario
           p(numero="1" titulo="Para análisis fisicoquímico") Los recipientes de vidrio nuevos se deben limpiar con agua y detergentes, para eliminar el polvo; después se limpian con una mezcla de ácido crómico- ácido sulfúrico o en su defecto con limpiador neutro y se enjuagan con agua destilada. Los recipientes de polietileno se limpian llenándolos con una solución al 10% ó 1 molar de ácido nítrico o ácido clorhídrico, dejándolos llenos durante 30 minutos. Finalmente se enjuagan con agua destilada o desionizada. Los detergentes no deben usarse con fines de limpieza, cuando haya lugar a determinación de fosfatos, silicatos, boro y surfactantes. 
@@ -108,7 +108,7 @@
 
           .row.align-items-end.justify-content-center
             .col-md-3.mb-4.mb-md-0.px-md-0(data-aos="fade-right")
-              img(src='@/assets/curso/temas/tema4/img3.svg' alt='Imagen decorativa')
+              img(src='@/assets/curso/temas/tema4/img3.svg' alt='')
             .col-md-9.mb-4.mb-md-0.px-md-0(data-aos="fade-left")
               h5.px-md-4.mb-4 Otras recomendaciones son:
               SlyderE.bg-white.box-shadow.p-4.py-md-3(indicadores="derecha")
@@ -163,19 +163,19 @@
             h4 Termómetro 
             p Termómetro Celsius (centígrado) con columna de mercurio, el cual mínimo debe tener escala marcada cada 0.1°C. Para prevenir rupturas en labores de campo se recomienda un termómetro con cazoleta protectora. En la actualidad se emplean muchos medidores electrónicos provistos con sondas, los cuales poseen termocuplas o termistores en su interior. Con miras a los procesos de validación y certificación de los laboratorios ambientales, los termómetros y sensores de temperatura deben calibrarse al menos una vez al año por una institución competente, siguiendo el protocolo para cada equipo y/o fabricante.
           .col-md-5.mb-4
-            img(src='@/assets/curso/temas/tema4/slide-img.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema4/slide-img.png' alt='')
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4
             h4 pHmetro   
             p La técnica más exacta, usada para la medición del pH, es la potenciométrica, que se fundamenta en la medida de la diferencia de potencial experimentada en dos celdas electroquímicas (denominadas electrodos); se emplea un electrodo combinado de membrana de vidrio y uno de calomel como referencia. Los equipos actuales combinan estas dos celdas electrolíticas en un mismo sensor, y poseen programas electrónicos internos que dan la medida directa a partir de la diferencia de potencial, facilitando la lectura de este parámetro.
           .col-md-5.mb-4
-            img(src='@/assets/curso/temas/tema4/slide-img2.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema4/slide-img2.png' alt='')
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4
             h4 Conductímetro 
             p El conocimiento de la salinidad es fundamental en estudios oceanográficos, pues es necesario para la determinación de corrientes y la identificación de masas de aguas. En estudios ambientales es un factor importante porque puede significar la presencia o no de organismos y peces. La salinidad se puede calcular a partir de la conductividad, el resultado es numéricamente menor que el residuo filtrable y se reporta usualmente como gramos por Kg o partes por mil.
           .col-md-5.mb-4
-            img(src='@/assets/curso/temas/tema4/slide-img3.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema4/slide-img3.png' alt='')
 
 
     Separador 
@@ -192,21 +192,21 @@
         .bg-blue3.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-4.col-5
-              img.pe-md-4(src='@/assets/curso/temas/tema4/ico2.svg' alt='Icono decorativo')
+              img.pe-md-4(src='@/assets/curso/temas/tema4/ico2.svg' alt='')
           h5 Sonda multiparámetro
           p.mb-0 Siempre revisar y calibrar los sensores de por lo menos 24 horas antes de la actividad; el sensor de oxígeno disuelto debe calibrarse entre cada muestreo si existe diferencias en la altitud. (Se puede usar si es aplicable el método winkler como comparación).
       .col-md-4.mb-4  
         .bg-green2.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-4.col-5
-              img.pe-md-4(src='@/assets/curso/temas/tema4/ico3.svg' alt='Icono decorativo')
+              img.pe-md-4(src='@/assets/curso/temas/tema4/ico3.svg' alt='')
           h5 Medidores de campo sencillos (pHmetro y conductímetro) 
           p.mb-0 El proceso de calibración debe darse diariamente siempre al inicio del primer muestreo.
       .col-md-4.mb-4
         .bg-blue3.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-4.col-5
-              img.pe-md-4(src='@/assets/curso/temas/tema4/ico4.svg' alt='Icono decorativo')
+              img.pe-md-4(src='@/assets/curso/temas/tema4/ico4.svg' alt='')
           h5 Éxito del muestreo 
           p.mb-0 Se determina según el conocimiento del lugar de muestreo y de la necesidad de los parámetros a identificar. Luego, revisar siempre el equipo antes de ir a tomar la muestra, en aspectos: longitudes de sondas, pilas cargadas, funcionamiento y calibración, entre otras acciones previas obligatorias.
 
@@ -240,7 +240,7 @@
                     span Descargar
                     i.fas.fa-file-download  
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema4/img4.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img4.png' alt='')
 
 
     h3.subt.text-white.mb-4(data-aos="fade") Técnicas fundamentales de laboratorio, orden y uso de los reactivos
@@ -248,7 +248,7 @@
 
     .row.mb-3
       .col-md-5.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema4/img5.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img5.png' alt='')
       .col-md-7.mb-4(data-aos="fade-left")
         p En relación con el manejo de los tubos de ensayo, tenga presente:
         ul.lista-ul--color.color-secundario.ps-md-3.fa-ul 
@@ -295,7 +295,7 @@
                 h4 Calentamiento de los materiales   
                 p El material de vidrio graduado, como probeta, bureta, pipetas, matraz aforado, nunca debe ser sometido a calentamiento. Se pude calentar el material de contención, como: vaso de precipitado, balón, tubos de ensayo, erlenmeyer.
       .col-md-5.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema4/img6.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img6.png' alt='')
 
 
     h3.subt.text-white.mb-4(data-aos="fade") Manejo de insumos químicos y lectura de volúmenes
@@ -303,7 +303,7 @@
 
     .row.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema4/img7.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema4/img7.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-green2")
           .row(titulo="Sólidos")

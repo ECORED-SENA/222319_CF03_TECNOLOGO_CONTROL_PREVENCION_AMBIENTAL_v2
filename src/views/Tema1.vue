@@ -14,7 +14,7 @@
           p.mb-0 Para esto, se requiere identificar los equipos y materiales de muestreo, el plan de muestreo y protocolos de muestreo específicos según factor ambiental evaluado.
         p Generalmente, el objetivo del muestreo es demostrar que se cumplen las normas especificadas por la legislación ambiental como actividades de prevención y control ambiental y, en otros casos, como medida de corrección y vigilancia cuando se ha ocasionado un impacto ambiental significativo como la contaminación ambiental en un ecosistema.
       .col-md-7(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema1/img.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema1/img.png' alt=' ')
 
 
     Separador 
@@ -25,7 +25,7 @@
 
     .row.justify-content-center.mb-4
       .col-md-5.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema1/img2.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema1/img2.png' alt=' ')
       .col-md-7.mb-4(data-aos="fade-left")
         p El agua es la sustancia que más abunda en la tierra y es la única que se encuentra en la atmósfera en estado líquido, sólido y gaseoso. La mayor reserva de agua está en los océanos, que contienen el 97% del agua que existe en la Tierra. Se trata de agua salada, que sólo permite la vida de la flora y fauna marina. El resto es agua dulce, pero no toda está disponible: gran parte permanece siempre helada, formando los casquetes polares y los glaciales.
     
@@ -45,7 +45,7 @@
           .row(titulo="Acumulación o tránsito lento del agua")
             p Los lagos son grandes masas de agua que permanecen estacionadas en una depresión del terreno. 
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema1/img3.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema1/img3.png' alt=' ')
 
 
     p(data-aos="fade") El agua entra en la atmósfera cuando el calor del sol la evapora, especialmente de los océanos. El aire caliente con vapor de agua disuelto asciende y se enfría a causa de la menor densidad de la atmósfera. Al enfriarse, se condensa y origina gotas de agua tan livianas que permanecen suspendidas en el aire. Estas gotas se agrupan formando nubes. Las nubes son transportadas por los vientos, a veces a grandes distancias.
@@ -53,8 +53,8 @@
 
     .row.justify-content-center.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img.mb-4(src='@/assets/curso/temas/tema1/img4.png' alt='Imagen decorativa')
-        img(src='@/assets/curso/temas/tema1/img5.png' alt='Imagen decorativa')
+        img.mb-4(src='@/assets/curso/temas/tema1/img4.png' alt=' ')
+        img(src='@/assets/curso/temas/tema1/img5.png' alt=' ')
       .col-md-8(data-aos="fade-left")
         LineaTiempoD.color-secundario
           .div(numero="1" titulo="Las precipitaciones")
@@ -134,7 +134,7 @@
                 h4 Humedad atmosférica   
                 p Este ciclo del agua a través de la vida influye en la humedad atmosférica. Por ejemplo, las selvas tropicales mantienen alta la humedad atmosférica y, en consecuencia, originan lluvias.
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema1/img6.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema1/img6.png' alt=' ')
 
     
     h3.subt.text-white.mb-4(data-aos="fade") El agua y la actividad humana
@@ -143,7 +143,7 @@
 
     .row.justify-content-center.mb-2
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema1/img7.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema1/img7.png' alt=' ')
       .col-md-8.mb-4(data-aos="fade-left")
         p En las últimas décadas, en relación con el agua y su influencia en la vida de los seres humanos: 
         ul.lista-ul--color.color-secundario.ps-3.mb-0.fa-ul
@@ -181,14 +181,14 @@
         .bg-green8.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-2.col-5
-              img(src='@/assets/curso/temas/tema1/ico1.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema1/ico1.svg' alt='')
           h5 Propiedades físicas de un suelo    
           p.mb-0 Son el resultado de la interacción que se origina entre las distintas fases del mismo (suelo, agua y aire) y la proporción en la que se encuentran cada una de estas.
       .col-md-6.px-md-0
         .bg-green4.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-2.col-5
-              img(src='@/assets/curso/temas/tema1/ico1.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema1/ico1.svg' alt='')
           h5 Condición física de un suelo 
           p.mb-0 Determina su capacidad de sostenimiento, facilidad para la penetración de raíces, circulación del aire, capacidad de almacenamiento de agua, drenaje, retención de nutrientes, entre otros factores.
 
@@ -199,7 +199,7 @@
         .bg-blue3.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-3.col-5
-              img(src='@/assets/curso/temas/tema1/ico2.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema1/ico2.svg' alt='')
           h5 Propiedades físicas 
           ul.lista-ul--color.color-secundario.fa-ul 
             li.mb-1
@@ -221,7 +221,7 @@
         .bg-green2.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-3.col-5
-              img(src='@/assets/curso/temas/tema1/ico3.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema1/ico3.svg' alt='')
           h5 Propiedades químicas  
           ul.lista-ul--color.color-secundario.fa-ul 
             li.mb-1
@@ -240,7 +240,7 @@
         .bg-blue3.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-3.col-5
-              img(src='@/assets/curso/temas/tema1/ico4.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema1/ico4.svg' alt='')
           h5 Propiedades biológicas    
           ul.lista-ul--color.color-secundario.fa-ul 
             li.mb-1
@@ -292,7 +292,7 @@
     .bg-blue4(data-aos="fade-down")
       .row.align-items-center
         .col-md-2.col-5.px-md-4
-          img.px-md-3.px-lg-4(src='@/assets/curso/temas/tema2/importante.svg' alt='Icono decorativo')
+          img.px-md-3.px-lg-4(src='@/assets/curso/temas/tema2/importante.svg' alt='')
         .col-md-10.py-4.pe-md-5
           p.mb-0 
             b La contaminación del suelo 
@@ -308,7 +308,7 @@
 
     .row.justify-content-center.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema1/img8.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema1/img8.png' alt=' ')
       .col-md-8.mb-4(data-aos="fade-left")
         p Es el resultado de la mezcla de gases que componen la atmósfera terrestre y que gracias a la fuerza de gravedad se encuentran sujetos al planeta Tierra. El aire, así como sucede con el agua, es un elemento fundamental y esencial para asegurar la continuidad de la vida en el planeta. Su composición es sumamente delicada y las proporciones de las sustancias que lo integran resultan ser variables: Nitrógeno, Oxígeno, Vapor de agua, Ozono, dióxido de carbono, Hidrógeno y gases nobles como pueden ser el Criptón o el Argón.
         p Los componentes fundamentales del aire son el 
@@ -350,21 +350,21 @@
         .bg-blue3.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-4.col-5
-              img.pe-md-4(src='@/assets/curso/temas/tema1/ico5.svg' alt='Icono decorativo')
+              img.pe-md-4(src='@/assets/curso/temas/tema1/ico5.svg' alt='')
           h5 Pequeñas porciones de aire 
           p A nivel de trazas (cantidades muy pequeñas) y dependiendo de la ubicación geográfica, se encuentran presentes compuestos como monóxido de nitrógeno NO, ozono O3, dióxido de azufre SO2, dióxido de nitrógeno NO2, amoníaco NH3 y monóxido de carbono CO.
       .col-md-4.mb-4  
         .bg-blue4.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-4.col-5
-              img.pe-md-4(src='@/assets/curso/temas/tema1/ico6.svg' alt='Icono decorativo')
+              img.pe-md-4(src='@/assets/curso/temas/tema1/ico6.svg' alt='')
           h5 Proporción de gases en el aire  
           p Las proporciones de estos gases se pueden considerar más o menos constantes hasta una altura aproximada de 25 Km, aunque la concentración de cada uno disminuye con la altura, excepto en los casos de componentes minoritarios como el ozono O3 y los compuestos de nitrógeno, cloro y azufre.
       .col-md-4.mb-4
         .bg-blue3.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-4.col-5
-              img.pe-md-4(src='@/assets/curso/temas/tema1/ico7.svg' alt='Icono decorativo')
+              img.pe-md-4(src='@/assets/curso/temas/tema1/ico7.svg' alt='')
           h5 Componentes fijos del aire   
           p Existen dos componentes que siempre se encuentran presentes en el aire en cantidades variables: el agua, en sus tres estados (sólido, líquido y gas) y el polvo atmosférico (humo, sal, arena fina, cenizas, esporas, polen, microorganismos, etc). La concentración de vapor de agua puede variar desde 0% en zonas desérticas hasta un 5 a 6% en zonas tropicales.
 
@@ -439,7 +439,7 @@
     .bg-blue4.mb-5(data-aos="fade-down")
       .row.align-items-center
         .col-md-2.col-5.px-md-4
-          img.px-md-4(src='@/assets/curso/temas/tema2/importante.svg' alt='Icono decorativo')
+          img.px-md-4(src='@/assets/curso/temas/tema2/importante.svg' alt='')
         .col-md-10.py-4.pe-md-5
           p.mb-0 
             b La contaminación del aire 
@@ -459,12 +459,12 @@
             .bg-blue3.p-3
               p.mb-0 El sentido del olfato, al igual que el sentido del gusto, es un sentido químico. Se denominan sentidos químicos porque detectan compuestos químicos en el ambiente, con la diferencia de que el sentido del olfato funciona a distancias mucho más largas que el sentido del gusto.
           .col-md-5.mb-4(data-aos="fade-left")  
-            img(src='@/assets/curso/temas/tema1/img9.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema1/img9.png' alt=' ')
 
           p.mb-4(data-aos="fade") El proceso del olfato sigue, más o menos, estos pasos:
 
           .col-md-4.mb-4(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema1/img10.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema1/img10.png' alt=' ')
           .col-md-8.mb-4(data-aos="fade-left")
             AcordionA(tipo="b" clase-tarjeta="tarjeta bg-green2")
               .row(titulo="Recepción de moléculas")
@@ -488,7 +488,7 @@
           p.mb-4(data-aos="fade") Para comprender más y mejor, los conceptos y metodologías relacionados con el aire y los procesos olfativos, aprópiese de las siguientes definiciones:
 
           .col-md-3.mb-4.mb-md-5.px-md-0(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema1/img11.svg' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema1/img11.svg' alt=' ')
           .col-md-7.mb-4.mb-md-5.px-md-0(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
@@ -554,7 +554,7 @@
     
     .row.justify-content-center
       .col-md-5.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema1/img12.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema1/img12.png' alt=' ')
       .col-md-7.mb-4(data-aos="fade-left")
         ul.lista-ul--color.color-secundario.mb-0
           li.mb-0

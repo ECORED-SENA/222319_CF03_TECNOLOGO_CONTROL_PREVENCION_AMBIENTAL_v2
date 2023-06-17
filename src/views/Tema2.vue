@@ -18,7 +18,7 @@
 
     .row.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img2.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img2.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-green2")
           .row(titulo="Fiabilidad")
@@ -56,7 +56,7 @@
           .row(titulo="Garantía")
             p El proceso debe dar garantía de la trazabilidad y custodia de la muestra en todo momento.
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img3.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img3.png' alt='')
 
 
     p.mb-4(data-aos="fade") De acuerdo al Instituto nacional de salud (2007) Manual de Instrucciones para la Toma, Preservación y Transporte de Muestras de Agua de Consumo Humano para Análisis de Laboratorio, algunos conceptos básicos a tener en cuenta en el alistamiento de muestras, son:
@@ -74,7 +74,7 @@
             h5 Cadena de custodia
             p.mb-0 Proceso por medio del cual se mantiene una muestra bajo posesión física o control durante su ciclo de vida completo, es decir, desde que se toma hasta que se desecha.
       .col-md-3.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img4.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img4.png' alt='')
 
 
     Separador 
@@ -88,7 +88,7 @@
     
     .row.justify-content-center.mb-4
       .col-md-3.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img5.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img5.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         ul.lista-ul--color.color-secundario.mb-0.fa-ul 
           li.mb-1
@@ -170,7 +170,7 @@
           p.mb-4(data-aos="fade") Para el sitio de muestreo se requiere tener en cuenta:
             
           .col-md-3.mb-4.mb-md-0.px-md-0(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img6.svg' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img6.svg' alt='')
           .col-md-7.px-md-0(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
@@ -261,11 +261,11 @@
             i.fas.fa-check
             | Para determinar la representatividad de la calidad del agua en embalses, muchas veces se requiere la toma de muestras en más de una posición.
       .col-md-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img7.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img7.png' alt='')
 
     .row.mb-4
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img8.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img8.png' alt='')
       .col-md-8(data-aos="fade-left")
         ul.lista-ul--color.color-secundario.ps-3.mb-0.fa-ul 
           li.mb-1
@@ -290,7 +290,7 @@
             h3.subt.text-white.mb-4(data-aos="fade") Labores a realizar en campo
 
           .col-md-3.mb-4(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img9.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img9.png' alt='')
           .col-md-9.mb-4(data-aos="fade-left")
             p Se realiza la respectiva toma de muestra y es indispensable que, a la vez, se realice análisis en campo de algunos parámetros que deben medirse en su lugar original, a esto se le llama laboratorio en campo o ensayos 
               em in situ
@@ -336,14 +336,14 @@
                       em in situ
                       | , es recomendable realizar la medición de los parámetros de inmediato para evitar variación de estos.
           .col-md-4(data-aos="fade-left")
-            img(src='@/assets/curso/temas/tema2/img10.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img10.png' alt='')
 
 
     h3.subt.text-white.mb-4(data-aos="fade") En cuanto a la seguridad y la protección personal, es fundamental:
 
     .row
       .col-md-3.mb-4(data-aos="fade-right")  
-        img(src='@/assets/curso/temas/tema2/img11.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img11.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         p Confirmar que el punto de muestreo y sus alrededores, cumplan con las condiciones meteorológicas adecuadas que garanticen la seguridad del personal de muestreo, de manera que, se minimicen los riesgos y peligros. Así mismo, conocer el estado del orden público; en caso de tratarse de una zona de conflicto, se informa a la autoridad competente la presencia del personal de muestreo indicando el número de integrantes y el tipo de actividad a realizar.
         p En el mismo sentido, el personal de la actividad debe chequear antes de salir al muestreo, su identificación personal, carné de seguro médico, ARL, número de contrato, entre otros. Se deberán identificar los datos y ubicación del centro de atención médico más cercano, ambulancias, policía, grúa o los números telefónicos pertinentes en caso de un incidente durante la actividad.
@@ -363,7 +363,7 @@
         p La localización de los puntos de muestreo (PDM) se apoya fundamentalmente en la información previa existente sobre el sistema o fenómeno a caracterizar, que permite establecer las hipótesis correspondientes, relativas a la distribución tanto horizontal como vertical de la contaminación. De todos modos, se tendrán en cuenta las zonas con mayor riesgo a ser contaminadas.
         p Como base en el diseño del muestreo, se debe considerar:
       .col-md-5(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img12.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img12.png' alt='')
 
 
     .row.justify-content-center.mb-5
@@ -390,7 +390,7 @@
     h3.subt.text-white.mb-4(data-aos="fade") Localización de los puntos de muestreo
     .row
       .col-md-3.mb-4(data-aos="fade-right")  
-        img(src='@/assets/curso/temas/tema2/img13.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img13.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         p Los modelos más frecuentes e importantes de distribución espacial de los PDM sitúan sus coordenadas de forma aleatoria (por muestreo al azar) o bien de forma regular (por muestreo sistemático). La elección del muestreo al azar implica que la localización de cada PDM dentro del área de estudio no aporta información adicional sobre el sistema o fenómeno a investigar. El muestreo sistemático, sin embargo, supone la existencia de una interrelación entre la localización espacial y la concentración de alguna de las sustancias estudiadas en cada punto de muestreo.
         p Dentro del muestreo sistemático se distinguen, a su vez, varios tipos:
@@ -435,10 +435,10 @@
             p Por ejemplo, es posible que la característica o sustancia que se va a determinar sea afectada por factores estacionales o actividades humanas (el clima, el acondicionamiento - fertilización del suelo, el uso de pesticidas o herbicidas); esto se debe tener en cuenta en el diseño de un programa de muestreo. No muestrear inmediatamente después de una lluvia o si el perfil del suelo está saturado, conviene siempre esperar 2 ó 3 días a que drene bien.
             p Otros aspectos clave sobre la localización del muestreo de suelo, son:
           .col-md-3(data-aos="fade-left")
-            img(src='@/assets/curso/temas/tema2/img14.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img14.png' alt='')
 
           .col-md-3.mb-4.mb-md-0.px-md-0(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema2/img15.svg' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema2/img15.svg' alt='')
           .col-md-6.mb-4.mb-md-0.px-md-0(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
@@ -467,28 +467,28 @@
         .bg-blue3.p-4.p-md-5.px-md-4.h-100
           .row.mb-4
             .col-md-5.col-5
-              img.pe-md-3(src='@/assets/curso/temas/tema2/ico1.svg' alt='Icono decorativo')
+              img.pe-md-3(src='@/assets/curso/temas/tema2/ico1.svg' alt='')
           h5 La intensidad    
           p.mb-0 La intensidad, entendida como la fuerza de la sensación percibida. 
       .col-md-3.mb-4  
         .bg-green2.p-4.p-md-5.px-md-4.h-100
           .row.mb-4
             .col-md-5.col-5
-              img.pe-md-3(src='@/assets/curso/temas/tema2/ico2.svg' alt='Icono decorativo')
+              img.pe-md-3(src='@/assets/curso/temas/tema2/ico2.svg' alt='')
           h5 La calidad    
           p.mb-0 La calidad, que es el carácter diferenciador de un olor, lo que permite identificarlo.
       .col-md-3.mb-4
         .bg-blue3.p-4.p-md-5.px-md-4.h-100
           .row.mb-4
             .col-md-5.col-5
-              img.pe-md-3(src='@/assets/curso/temas/tema2/ico3.svg' alt='Icono decorativo')
+              img.pe-md-3(src='@/assets/curso/temas/tema2/ico3.svg' alt='')
           h5 La aceptabilidad    
           p.mb-0 La aceptabilidad, como el grado de gusto o disgusto de un olor.
       .col-md-3.mb-4  
         .bg-green2.p-4.p-md-5.px-md-4.h-100
           .row.mb-4
             .col-md-5.col-5
-              img.pe-md-3(src='@/assets/curso/temas/tema2/ico4.svg' alt='Icono decorativo')
+              img.pe-md-3(src='@/assets/curso/temas/tema2/ico4.svg' alt='')
           h5 El umbral del olor    
           p.mb-0 El umbral del olor, como la concentración mínima de un estímulo odorífico capaz de provocar una respuesta.
 
@@ -496,9 +496,9 @@
 
     .bg-blue4.mb-5(data-aos="fade-down")
       .row.align-items-center
-        .col-md-2.px-md-4
-          img.px-md-4(src='@/assets/curso/temas/tema2/importante.svg' alt='Icono decorativo')
-        .col-md-10.py-4.pe-md-5
+        .col-md-2.px-4.col-5
+          img.px-md-4(src='@/assets/curso/temas/tema2/importante.svg' alt='')
+        .col-md-10.py-4.px-4.px-md-0.pe-md-5
           p.mb-0 También se emplean otras técnicas sensoriales que incluyen la determinación del carácter de un olor (mapeo triangular) y el nivel de agrado o desagrado de un olor (tono hedónico). La desventaja de este método es que no es específico y consecuentemente no identifica las especies químicas causantes del olor que está presente en el sitio.
 
     
@@ -519,11 +519,11 @@
           .row(titulo="Elaboración del plan de muestreo ")
             p Un estudio olfatométrico supone el conocimiento previo al detalle de todos aquellos aspectos que pueden verse inmersos en la generación de olores de una actividad o instalación. Este conocimiento previo es fundamental para poder establecer un programa de muestreo que responda a los objetivos planteados en el estudio de impacto ambiental por olores.
       .col-md-3.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img16.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img16.png' alt='')
 
     .row.mb-4
       .col-md-3.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img17.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img17.png' alt='')
       .col-md-9.mb-4(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-green2")
           .row(titulo="Maneras de elaborar el plan de muestreo")
@@ -604,7 +604,7 @@
             | Ruido Residual, medido como nivel de presión sonora continuo equivalente ponderado A, LAeq,T, Residual.
         p El intervalo unitario de tiempo de medida se establece en una (1) hora, la cual puede ser medida en forma continua o con intervalos de tiempo distribuidos uniformemente hasta obtener, como mínimo, quince (15) minutos de captura de información.   
       .col-md-3(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema2/img18.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img18.png' alt='')
 
 
     p.mb-4(data-aos="fade") Las siguientes, son las condiciones meteorológicas del sitio de medición de ruido:
@@ -614,28 +614,28 @@
         .hover-tema2.bg-green7.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-2.col-5
-              img(src='@/assets/curso/temas/tema2/tema2-4-ico1.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema2/tema2-4-ico1.svg' alt='')
           h5 Clima   
           p.mb-0 Es importante que las mediciones se realicen en tiempo seco; es preferible que durante las mediciones no llueva o se presenten lloviznas, truenos o en el caso extremo presencia de granizo.
       .col-md-6.px-md-0
         .hover-tema2.bg-green6.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-2.col-5
-              img(src='@/assets/curso/temas/tema2/tema2-4-ico2.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema2/tema2-4-ico2.svg' alt='')
           h5 Riesgos de error minimizados o anulados    
           p.mb-0 Adicionalmente los pavimentos y aquellas superficies donde se efectúen las mediciones deben estar completamente secos por ende si esa situación no se presenta las mediciones podrían tener un sesgo de error cuyos resultados NO podrían ser tenidos en cuenta para una mayor representatividad.
       .col-md-6.px-md-0
         .hover-tema2.bg-green4.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-2.col-5
-              img(src='@/assets/curso/temas/tema2/tema2-4-ico3.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema2/tema2-4-ico3.svg' alt='')
           h5 Viento    
           p.mb-0 Otro factor importante que afecta las mediciones es la velocidad del viento. Si es superior a 3m/s se deberán realizar los respectivos ajustes en las calibraciones con el fin de evitar sesgos en la medición, sin embargo, los equipos de medición como los sonómetros incluyen pantallas protectoras contra el viento la velocidad la medición de la velocidad del viento debe hacerse a la misma altura a la que está ubicado el micrófono y en el momento y en el lugar donde se van a realizar las mediciones del ruido.
       .col-md-6.px-md-0
         .hover-tema2.bg-green2.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-2.col-5
-              img(src='@/assets/curso/temas/tema2/tema2-4-ico4.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema2/tema2-4-ico4.svg' alt='')
           h5 Velocidad y dirección del viento   
           p.mb-0 Cuando se hacen mediciones de ruido simultáneamente se debe medir la velocidad y dirección del viento que está circulando en el sector de la medición y para ello se emplea un anemómetro.
 
@@ -644,7 +644,7 @@
 
     .row
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema2/img19.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema2/img19.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-green2")
           .row(titulo="Ruido Ambiental")

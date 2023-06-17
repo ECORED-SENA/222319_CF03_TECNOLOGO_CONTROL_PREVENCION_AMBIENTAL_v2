@@ -35,7 +35,7 @@
                 i.fas.fa-check
                 | En el caso de equipos que hacen uso de electrodos para medición, posterior a su uso este debe ser lavado con agua destilada y conservado acorde a los protocolos del proveedor para garantizar su tiempo de vida útil.
           .col-md-6.mb-4(data-aos="fade-left")
-            img(src='@/assets/curso/temas/tema3/img.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema3/img.png' alt='')
 
 
     p.mb-4(data-aos="fade") La siguiente tabla, enuncia los más comunes equipos y materiales usados en la toma de muestras de agua:
@@ -217,7 +217,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-5.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema3/img3.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema3/img3.png' alt='')
       .col-md-7.mb-4(data-aos="fade-left")
         ul.lista-ul--color.color-secundario.fa-ul 
           li.mb-3
@@ -253,28 +253,28 @@
         .bg-blue3.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-5.col-5
-              img(src='@/assets/curso/temas/tema3/ico1.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema3/ico1.svg' alt='')
           h5 Indicador de Ph El pH
           p.mb-0 El pH determina que tan acido está el suelo y tiene un rango de 4-9. El pH se determina sobre la base de la comparación del color.
       .col-md-3.mb-4  
         .bg-green2.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-5.col-5
-              img(src='@/assets/curso/temas/tema3/ico2.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema3/ico2.svg' alt='')
           h5 Juego de tamices de bolsillo  
           p.mb-0 Juego de tamices manuales, tamaño de bolsillo Altura: 40 mm Contiene 6 discos intercambiables Tamaño de poro: 2,0 – 1,0-0,5-0,25-0,125 y 0,063 mm Diámetro 100mm.
       .col-md-3.mb-4
         .bg-blue3.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-5.col-5
-              img(src='@/assets/curso/temas/tema3/ico3.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema3/ico3.svg' alt='')
           h5 Penetrómetro de bolsillo 
           p.mb-0 Se utiliza específicamente para determinar la resistencia a la penetración de las capas superiores del suelo. Precisión de lectura: 3% Profundidad máxima de medición 1 cm Intervalo de medición 0 – 500 kPa.
       .col-md-3.mb-4  
         .bg-green2.p-4.p-md-5.h-100
           .row.mb-4
             .col-md-5.col-5
-              img(src='@/assets/curso/temas/tema3/ico4.svg' alt='Icono decorativo')
+              img(src='@/assets/curso/temas/tema3/ico4.svg' alt='')
           h5 Medidor de esfuerzo de corte
           p.mb-0 Es un instrumento diseñado para la determinación de la resistencia al corte de los suelos. Contiene 3 anillos para un amplio rango de medición. Se requiere una superficie plana de 25 mm de diámetro. Rango de medición 0 -250 kPa.
 
@@ -293,11 +293,11 @@
           .row(titulo="Muestreo de fuentes difusas no aireadas")
             p (superficiales pasivas). Para este tipo de fuentes (decantador de una depuradora o una parva o pila de compost) se utiliza el método del túnel del viento o “cámara de flujo” (conocida también como Caja Lindvall Para ello, mediante un soplante, se insufla un caudal conocido de aire previamente filtrado, a través de la cámara de flujo, tomando la muestra mediante una sonda a la salida de la misma.
       .col-md-4.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/temas/tema3/img4.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema3/img4.png' alt='')
 
     .row
       .col-md-4.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/temas/tema3/img5.png' alt='Imagen decorativa')
+        img(src='@/assets/curso/temas/tema3/img5.png' alt='')
       .col-md-8.mb-4(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-green2")
           .row(titulo="Bolsas de gas para muestreo")
@@ -323,7 +323,7 @@
 
 
           .col-md-3.mb-4.mb-md-5.px-md-0(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema3/img6.png' alt='Imagen decorativa')
+            img(src='@/assets/curso/temas/tema3/img6.png' alt='')
           .col-md-9.mb-4.mb-md-5.px-md-0(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
