@@ -373,7 +373,7 @@
     .row.justify-content-center.mb-5
       .col-md-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 2.] Tipos de suelos y sus características
+            p.mb-0 #[b Tabla 2.] Propiedades del aire
           .tabla-a.tema1.color-secundario
             table
               thead
