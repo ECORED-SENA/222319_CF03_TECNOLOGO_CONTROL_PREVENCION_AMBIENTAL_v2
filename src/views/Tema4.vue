@@ -9,13 +9,13 @@
 
 
     .row.mb-3
-      .col-md-5.mb-4(data-aos="fade-right")
+      .col-lg-5.mb-4(data-aos="fade-right")
         p Se trata de todo aquel material que puede ser empleado en un laboratorio (puede ser de vidrio, madera, metal, plástico, goma y porcelana) para realizar las típicas actividades que en este tipo de lugares se llevan a cabo: investigaciones, experimentos, estudios especiales sobre recursos, partículas u otros.
         .bg-blue.p-3
           p.mb-0 El uso de los instrumentos de laboratorio debe estar orientado al objetivo de la muestra, teniendo en cuenta las características requeridas para muestras fisicoquímicas y microbiológicas; si el procesamiento de la misma será 
             em in situ 
             | o si se requiere de algún equipo o herramienta.
-      .col-md-7.mb-4(data-aos="fade-left")  
+      .col-lg-7.mb-4(data-aos="fade-left")  
         img(src='@/assets/curso/temas/tema4/img.png' alt='')
 
 
@@ -32,9 +32,9 @@
 
           .row(data-aos="fade-down")
             .col-md-6.bg-green3
-              .p-4.px-md-5.h-100
+              .p-4.px-lg-5.h-100
                 .row.mb-4
-                  .col-md-2.col-5
+                  .col-lg-2.col-md-4.col-5
                     img(src='@/assets/curso/temas/tema4/ico1.svg' alt='')
                 h5 Recipientes de vidrio
                 ul.lista-ul--color.color-secundario.fa-ul 
@@ -48,9 +48,9 @@
                     i.fas.fa-check
                     | Deben tener tapa rosca, preferiblemente de plástico, con forros de silicona termo-resistentes.
             .col-md-6.bg-green9
-              .p-4.px-md-5.h-100
+              .p-4.px-lg-5.h-100
                 .row.mb-4
-                  .col-md-2.col-5
+                  .col-lg-2.col-md-4.col-5
                     img(src='@/assets/curso/temas/tema4/ico1.svg' alt='')
                 h5 Recipientes de plástico
                 p Los recipientes de plástico deben ser de polietileno, policarbonato o teflón si se requiere. El uso de botellas de plástico es recomendado para la toma de muestras a las que se les va a determinar sustancias inorgánicas.
@@ -83,7 +83,7 @@
       .col-md-8.mb-4(data-aos="fade-left")
         LineaTiempoD.color-secundario
           p(numero="1" titulo="Para análisis fisicoquímico") Los recipientes de vidrio nuevos se deben limpiar con agua y detergentes, para eliminar el polvo; después se limpian con una mezcla de ácido crómico- ácido sulfúrico o en su defecto con limpiador neutro y se enjuagan con agua destilada. Los recipientes de polietileno se limpian llenándolos con una solución al 10% ó 1 molar de ácido nítrico o ácido clorhídrico, dejándolos llenos durante 30 minutos. Finalmente se enjuagan con agua destilada o desionizada. Los detergentes no deben usarse con fines de limpieza, cuando haya lugar a determinación de fosfatos, silicatos, boro y surfactantes. 
-          p(numero="2" titulo="Para análisis microbiológico") El lavado de debe realizar con detergentes neutros y para eliminar la suciedad, se deben enjuagar con agua corriente hasta eliminar completamente las trazas de jabón, posteriormente se enjuaga con agua destilada y finalmente se dejan secar al medio ambiente o en estufa. 
+          p(numero="2" titulo="Para análisis microbiológico") El lavado se debe realizar con detergentes neutros y para eliminar la suciedad, se deben enjuagar con agua corriente hasta eliminar completamente las trazas de jabón, posteriormente se enjuaga con agua destilada y finalmente se dejan secar al medio ambiente o en estufa. 
           p(numero="3" titulo="Esterilización de los recipientes") Los recipientes para la toma de muestras deben estar estériles. Es decir, deben haber sido sometidos a procesos de esterilización. La esterilización hace referencia a procesos físicos o químicos que eliminan cualquier forma de vida. Cuando se dice que un recipiente está estéril es porque en este no hay presencia de microorganismos o esporas termorresistentes. 
           p(numero="4" titulo="Esterilización por calor húmedo") Se realiza en un equipo llamado autoclave en el que mediante el vapor de agua se producen temperaturas de 121 ± 3 ºC y 1 atmósfera de presión. Cuanto se someten los recipientes a estas condiciones durante 15 minutos, los microorganismos o las esporas que estaban presentes en estos, mueren y como consecuencia los recipientes quedan estériles. 
           p(numero="5" titulo="Esterilización por calor seco") Se realiza en un horno que se lleva a una temperatura de 170 ± 10 ºC durante 1 hora. Los recipientes de plástico no se deben esterilizar por este método. Antes de llevar los recipientes al proceso de esterilización estos se deben tapar, sin cerrarlos totalmente. La tapa y el cuello del recipiente se debe cubrir con papel Kraft, mantequilla o aluminio para proteger la boca y la tapa del recipiente en el momento del muestreo. 
@@ -107,9 +107,9 @@
             p.mb-4(data-aos="fade") Manejar los equipos para las muestras superficiales es extremar la limpieza del material y procurar procedimientos que eviten la contaminación. En muestras superficiales la recolección se puede hacer manualmente introduciendo la botella colectora bajo la superficie, procurando siempre hacerlo a la misma profundidad (c.a. 25 cm).
 
           .row.align-items-end.justify-content-center
-            .col-md-3.mb-4.mb-md-0.px-md-0(data-aos="fade-right")
+            .col-lg-3.col-6.mb-4.mb-lg-0.px-md-0(data-aos="fade-right")
               img(src='@/assets/curso/temas/tema4/img3.svg' alt='')
-            .col-md-9.mb-4.mb-md-0.px-md-0(data-aos="fade-left")
+            .col-lg-9.mb-4.mb-lg-0.px-md-0.d-none.d-lg-block(data-aos="fade-left")
               h5.px-md-4.mb-4 Otras recomendaciones son:
               SlyderE.bg-white.box-shadow.p-4.py-md-3(indicadores="derecha")
                 .row.align-items-center
@@ -138,6 +138,39 @@
                   .col-md-4
                     img(src='@/assets/curso/temas/tema4/slide1-img5.png' alt='')
                 .row.align-items-center
+                  .col-md-8
+                    p La recolección de muestras para el análisis de hidrocarburos requiere un equipo de muestreo especial; la muestra se debe recolectar en la misma botella de almacenamiento (que debe ser de vidrio) y a una profundidad de un metro, por lo cual no es posible utilizar ninguna de las mencionadas anteriormente.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img6.png' alt='')
+            .col-12.d-lg-none.d-block.mb-5
+              h5.px-md-4.mb-4 Otras recomendaciones son:
+              .bg-white.box-shadow.p-4.py-md-3
+                .row.align-items-center.mb-4
+                  .col-md-8
+                    p Cuando el objetivo es obtener muestras de agua a profundidades determinadas, se emplean botellas colectoras dotadas de mecanismos de cierre para confinar la masa de agua que se encuentra a la profundidad de interés.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img1.png' alt='')
+                .row.align-items-center.mb-4
+                  .col-md-8
+                    p En estudios oceanográficos, se emplean normalmente botellas Nansen para el análisis de los parámetros fisicoquímicos, pH, salinidad, oxígeno disuelto y nutrientes inorgánicos.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img2.png' alt='')
+                .row.align-items-center.mb-4
+                  .col-md-8
+                    p Las botellas Van Dorn y Niskin, por tener capacidad de mayor volumen, son ideales para la obtención de muestras en el análisis de pigmentos fotosintéticos y contaminantes (pesticidas, metales pesados, etc.).
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img3.png' alt='')
+                .row.align-items-center.mb-4
+                  .col-md-8
+                    p Hay que tener bastante precaución cuando se usan estas botellas en el muestreo de aguas con alto contenido de sólidos sedimentables; su forma alargada y un flujo muy lento para extraer la muestra por las llaves, facilitan la sedimentación de los sólidos provocando diferencia en este parámetro entre las primeras y las últimas botellas receptoras que se llenan.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img4.png' alt='')
+                .row.align-items-center.mb-4
+                  .col-md-8
+                    p La botella Van Dorn horizontal es adecuada para colectar muestras de fondo en cuerpos de agua muy someros, siendo muy apropiada para estudios de estratificación vertical, termoclinas y termohalinas en lagunas costeras, mientras que las de funcionamiento vertical permiten colectar muestras a mayores profundidades.
+                  .col-md-4
+                    img(src='@/assets/curso/temas/tema4/slide1-img5.png' alt='')
+                .row.align-items-center.mb-4
                   .col-md-8
                     p La recolección de muestras para el análisis de hidrocarburos requiere un equipo de muestreo especial; la muestra se debe recolectar en la misma botella de almacenamiento (que debe ser de vidrio) y a una profundidad de un metro, por lo cual no es posible utilizar ninguna de las mencionadas anteriormente.
                   .col-md-4
@@ -189,23 +222,23 @@
 
     .row.mb-4(data-aos="fade-down")
       .col-md-4.mb-4
-        .bg-blue3.p-4.p-md-5.h-100
+        .bg-blue3.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-4.col-5
+            .col-lg-4.col-md-8.col-5
               img.pe-md-4(src='@/assets/curso/temas/tema4/ico2.svg' alt='')
           h5 Sonda multiparámetro
           p.mb-0 Siempre revisar y calibrar los sensores de por lo menos 24 horas antes de la actividad; el sensor de oxígeno disuelto debe calibrarse entre cada muestreo si existe diferencias en la altitud. (Se puede usar si es aplicable el método winkler como comparación).
       .col-md-4.mb-4  
-        .bg-green2.p-4.p-md-5.h-100
+        .bg-green2.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-4.col-5
+            .col-lg-4.col-md-8.col-5
               img.pe-md-4(src='@/assets/curso/temas/tema4/ico3.svg' alt='')
           h5 Medidores de campo sencillos (pHmetro y conductímetro) 
           p.mb-0 El proceso de calibración debe darse diariamente siempre al inicio del primer muestreo.
       .col-md-4.mb-4
-        .bg-blue3.p-4.p-md-5.h-100
+        .bg-blue3.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-4.col-5
+            .col-lg-4.col-md-8.col-5
               img.pe-md-4(src='@/assets/curso/temas/tema4/ico4.svg' alt='')
           h5 Éxito del muestreo 
           p.mb-0 Se determina según el conocimiento del lugar de muestreo y de la necesidad de los parámetros a identificar. Luego, revisar siempre el equipo antes de ir a tomar la muestra, en aspectos: longitudes de sondas, pilas cargadas, funcionamiento y calibración, entre otras acciones previas obligatorias.

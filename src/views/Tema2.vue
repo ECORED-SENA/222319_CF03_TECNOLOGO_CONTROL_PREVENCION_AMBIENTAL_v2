@@ -83,7 +83,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.1 Localización del muestreo de agua
 
-    p(data-aos="fade") El muestreo de aguas puede tener diferentes fines que van desde conocer las características de la fuente de suministro, hasta determinar las condiciones que presenta un vertimiento. Para localizar el sitio de muestreo debe especificarse concretamente el fin de la muestra y el tipo de agua que se quiere muestrea. Dependiendo de esto se especifica el lugar exacto y protocolo aplicable para la actividad. En cualquier caso, siempre es necesario dejar registro detallado del lugar de la toma, incluso si se dispone de GPS se puede posicionar satelitalmente la ubicación.
+    p(data-aos="fade") El muestreo de aguas puede tener diferentes fines que van desde conocer las características de la fuente de suministro, hasta determinar las condiciones que presenta un vertimiento. Para localizar el sitio de muestreo debe especificarse concretamente el fin de la muestra y el tipo de agua que se quiere muestrear. Dependiendo de esto se especifica el lugar exacto y protocolo aplicable para la actividad. En cualquier caso, siempre es necesario dejar registro detallado del lugar de la toma, incluso si se dispone de GPS se puede posicionar satelitalmente la ubicación.
     p.mb-4(data-aos="fade") De manera general, la Información requerida al momento del muestreo debe ser como mínimo, la siguiente:
     
     .row.justify-content-center.mb-4
@@ -133,7 +133,7 @@
             p El personal de monitoreo deberá obtener toda la información posible y de manera detallada acerca de las estaciones del recurso hídrico por monitorear. Generalmente, esta información es proporcionada por el cliente, ello servirá para planear todo el procedimiento de muestreo.
             p La ubicación de los puntos de muestreo deberá cumplir los siguientes criterios:
 
-          .col-md-8(data-aos="fade-down")
+          .col-lg-8(data-aos="fade-down")
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Tabla 4.] Criterios en la ubicación de puntos de muestreo
             .tabla-a.tema2.color-secundario.mb-5 
@@ -151,7 +151,7 @@
 
           p.mb-4(data-aos="fade") Para muestreos que no son de agua para consumo humano siempre se recomienda:     
 
-          .col-md-8(data-aos="fade-down")
+          .col-lg-8(data-aos="fade-down")
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Tabla 5.] Puntos de muestreo en aguas no aptas para consumo humano
             .tabla-a.tema2.color-secundario.mb-5 
@@ -169,9 +169,9 @@
           
           p.mb-4(data-aos="fade") Para el sitio de muestreo se requiere tener en cuenta:
             
-          .col-md-3.mb-4.mb-md-0.px-md-0(data-aos="fade-right")
+          .col-lg-3.col-6.mb-4.mb-lg-0.px-md-0(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema2/img6.svg' alt='')
-          .col-md-7.px-md-0(data-aos="fade-left")
+          .col-lg-7.px-md-0.d-none.d-lg-block(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
                 h4 Accesibilidad 
@@ -203,15 +203,52 @@
                     | Tipo de descarga. 
                   li.mb-0
                     i.fas.fa-check
-                    | Tipo de muestra (pecuaria, domestica, industrial).
+                    | Tipo de muestra (pecuaria, doméstica, industrial).
                   li.mb-0
                     i.fas.fa-check
                     | Tipo de fuente receptora.
               .row
                 h4 Definición de la frecuencia de muestreo   
                 p Con lo anterior se define la frecuencia del muestreo (15 minutos, 20 minutos, 30 minutos), los parámetros a determinar, la forma de manejo y preservación de las muestras, los tipos de descarga, los sitios de aforo y muestreo que dan lugar a las posibles adecuaciones necesarias que permiten garantizar la confiabilidad en la toma de muestra y la medición del caudal, ya que la representatividad de ésta depende la veracidad de los resultados.
-
-
+          .col-12.d-lg-none.d-block.mb-5
+            .bg-white.box-shadow.p-4.px-md-5
+              .row.mb-4
+                h4 Accesibilidad 
+                p El punto de muestreo se sitúa en un lugar de fácil acceso, que cuente con las vías vehiculares y peatonales adecuadas, de tal manera que se facilite obtener las muestras, transportar equipos, recipientes y materiales de muestreo.
+              .row.mb-4
+                h4 Representatividad  
+                p El punto de recolección de las muestras se ubica de manera que, sea lo más representativo posible de las características generales del cuerpo de agua. Esto significa, que es necesario que el cuerpo de agua se encuentre totalmente mezclado en el punto donde se tomará la muestra; evaluando la turbulencia, velocidad y apariencia física del mismo para asegurar la homogeneidad de la muestra. Cabe señalar, que una excesiva turbulencia puede afectar los valores de algunos parámetros como oxígeno disuelto y pH.
+              .row.mb-4
+                h4 Revisión de expedientes   
+                p Es indispensable conocer el estado y la exigencia dada por la Entidad Ambiental a cada industria; con ello, se da la respectiva prioridad y orden en la programación fijada en el año. Los permisos y obligaciones de cada una de las industrias se consultan en los expedientes de la corporación ambiental a la que pertenece la industria, así como otro tipo de información necesaria para determinar las características del muestreo (aumento o disminución de la producción, períodos de vacaciones, jornadas laborales, número de empleados, entre otros) que ayudan a determinar el sitio, duración, tipo de muestreo que se debe realizar.
+              .row.mb-4
+                h4 Información clave   
+                p De cada industria es necesario obtener determinada información que permita establecer los siguientes aspectos:
+                ul.lista-ul--color.color-secundario.mb-0.fa-ul 
+                  li.mb-0
+                    i.fas.fa-check
+                    | Objeto de caracterización (control y seguimiento al permiso de vertimiento).
+                  li.mb-0
+                    i.fas.fa-check
+                    | Información básica de la empresa (Procesos Productivos).
+                  li.mb-0
+                    i.fas.fa-check
+                    | Determinación de los sitios de aforo y muestreo (Tipo de PTAR y sus componentes, afluentes y efluentes).
+                  li.mb-0
+                    i.fas.fa-check
+                    | Método de aforo.
+                  li.mb-0
+                    i.fas.fa-check
+                    | Tipo de descarga. 
+                  li.mb-0
+                    i.fas.fa-check
+                    | Tipo de muestra (pecuaria, doméstica, industrial).
+                  li.mb-0
+                    i.fas.fa-check
+                    | Tipo de fuente receptora.
+              .row.mb-4
+                h4 Definición de la frecuencia de muestreo   
+                p Con lo anterior se define la frecuencia del muestreo (15 minutos, 20 minutos, 30 minutos), los parámetros a determinar, la forma de manejo y preservación de las muestras, los tipos de descarga, los sitios de aforo y muestreo que dan lugar a las posibles adecuaciones necesarias que permiten garantizar la confiabilidad en la toma de muestra y la medición del caudal, ya que la representatividad de ésta depende la veracidad de los resultados.
 
     h3.subt.text-white.mb-4(data-aos="fade") Características de los puntos de muestreo
     p.mb-4(data-aos="fade") La forma de tomar la muestra y el punto de muestreo es condicionada al lugar de este, es por ello que se deben considerar algunas particularidades. Según las diferentes fuentes de agua las características del muestreo deben ser:
@@ -367,24 +404,24 @@
 
 
     .row.justify-content-center.mb-5
-      .col-md-8(data-aos="fade-down")
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 6.] Consideraciones para el diseño del muestreo
-          .tabla-a.tema2.color-secundario
-            table
-              tbody.bg-white 
-                tr
-                  td.colum-1.fw-bold.text-center Extensión
-                  td Se deberá formular una hipótesis acerca de la extensión espacial del entorno afectado. 
-                tr.bg-green4
-                  td.colum-1.fw-bold.text-center Elementos presentes 
-                  td Así mismo, se deberá formular una hipótesis de la potencial distribución de los elementos presentes en el suelo en los diferentes medios.  
-                tr
-                  td.colum-1.fw-bold.text-center Sustento de las hipótesis 
-                  td Tales hipótesis se realizarán con base en los resultados obtenidos a partir de la información recolectada en la etapa de reconocimiento.  
-                tr.bg-green4
-                  td.colum-1.fw-bold.text-center Análisis de información 
-                  td Preferiblemente, se debe realizar un análisis de la información mediante un SIG (Sistema de Información Geográfica). 
+      .col-lg-8(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Tabla 6.] Consideraciones para el diseño del muestreo
+        .tabla-a.tema2.color-secundario
+          table
+            tbody.bg-white 
+              tr
+                td.colum-1.fw-bold.text-center Extensión
+                td Se deberá formular una hipótesis acerca de la extensión espacial del entorno afectado. 
+              tr.bg-green4
+                td.colum-1.fw-bold.text-center Elementos presentes 
+                td Así mismo, se deberá formular una hipótesis de la potencial distribución de los elementos presentes en el suelo en los diferentes medios.  
+              tr
+                td.colum-1.fw-bold.text-center Sustento de las hipótesis 
+                td Tales hipótesis se realizarán con base en los resultados obtenidos a partir de la información recolectada en la etapa de reconocimiento.  
+              tr.bg-green4
+                td.colum-1.fw-bold.text-center Análisis de información 
+                td Preferiblemente, se debe realizar un análisis de la información mediante un SIG (Sistema de Información Geográfica). 
 
 
     h3.subt.text-white.mb-4(data-aos="fade") Localización de los puntos de muestreo
@@ -437,9 +474,9 @@
           .col-md-3(data-aos="fade-left")
             img(src='@/assets/curso/temas/tema2/img14.png' alt='')
 
-          .col-md-3.mb-4.mb-md-0.px-md-0(data-aos="fade-right")
+          .col-lg-3.col-6.mb-4.mb-lg-0.px-md-0(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema2/img15.svg' alt='')
-          .col-md-6.mb-4.mb-md-0.px-md-0(data-aos="fade-left")
+          .col-lg-6.mb-4.mb-md-0.px-md-0.d-none.d-lg-block(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
                 h4 Accesibilidad y Topografía del terreno  
@@ -450,6 +487,18 @@
               .row
                 h4 Permisos  
                 p Antes de iniciar cualquier investigación de campo se deberán conseguir los permisos oportunos (de ocupación, de perforación, de acceso a los terrenos, etc.), que pueden variar de un caso a otro.
+          .col-12.d-lg-none.d-block.mb-5
+            .bg-white.box-shadow.p-4.px-md-5
+              .row.mb-4
+                h4 Accesibilidad y Topografía del terreno  
+                p Durante el diseño del muestreo se debe llevar a cabo un reconocimiento del entorno afectado, dirigido especialmente a comprobar la accesibilidad de las zonas a muestrear, que puede condicionar los equipos a utilizar durante la campaña. Se deberán identificar las zonas de difícil acceso, canales, taludes, laderas de fuerte pendiente, zonas inestables, etc. Si se posee información cartográfica de las vías de acceso y fotografías aéreas, esta actividad se puede realizar en la oficina.
+              .row.mb-4
+                h4 Presencia de superficies endurecidas  
+                p En ciertos entornos afectados, la superficie del terreno a investigar está constituida por suelos que presentan horizontes endurecidos y capas con grava y gravilla de mayor dureza, que se tendrá que atravesar para muestrear y seguir muestreando en profundidad. Este factor ha de tenerse en cuenta, en la medida que puede requerir equipos específicos (martillos neumáticos, etc.) adicionales a los de perforación y muestreo que se empleen posteriormente.
+              .row.mb-4
+                h4 Permisos  
+                p Antes de iniciar cualquier investigación de campo se deberán conseguir los permisos oportunos (de ocupación, de perforación, de acceso a los terrenos, etc.), que pueden variar de un caso a otro.
+
 
 
     Separador 
@@ -463,28 +512,28 @@
     p.mb-4(data-aos="fade") La OMS define cuatro características para los olores:
 
     .row(data-aos="fade-down")
-      .col-md-3.mb-4
+      .col-lg-3.col-md-6.mb-4
         .bg-blue3.p-4.p-md-5.px-md-4.h-100
           .row.mb-4
             .col-md-5.col-5
               img.pe-md-3(src='@/assets/curso/temas/tema2/ico1.svg' alt='')
           h5 La intensidad    
           p.mb-0 La intensidad, entendida como la fuerza de la sensación percibida. 
-      .col-md-3.mb-4  
+      .col-lg-3.col-md-6.mb-4  
         .bg-green2.p-4.p-md-5.px-md-4.h-100
           .row.mb-4
             .col-md-5.col-5
               img.pe-md-3(src='@/assets/curso/temas/tema2/ico2.svg' alt='')
           h5 La calidad    
           p.mb-0 La calidad, que es el carácter diferenciador de un olor, lo que permite identificarlo.
-      .col-md-3.mb-4
+      .col-lg-3.col-md-6.mb-4
         .bg-blue3.p-4.p-md-5.px-md-4.h-100
           .row.mb-4
             .col-md-5.col-5
               img.pe-md-3(src='@/assets/curso/temas/tema2/ico3.svg' alt='')
           h5 La aceptabilidad    
           p.mb-0 La aceptabilidad, como el grado de gusto o disgusto de un olor.
-      .col-md-3.mb-4  
+      .col-lg-3.col-md-6.mb-4  
         .bg-green2.p-4.p-md-5.px-md-4.h-100
           .row.mb-4
             .col-md-5.col-5
@@ -496,9 +545,9 @@
 
     .bg-blue4.mb-5(data-aos="fade-down")
       .row.align-items-center
-        .col-md-2.px-4.col-5
+        .col-lg-2.col-md-3.px-4.col-5
           img.px-md-4(src='@/assets/curso/temas/tema2/importante.svg' alt='')
-        .col-md-10.py-4.px-4.px-md-0.pe-md-5
+        .col-lg-10.col-md-9.py-4.px-4.px-md-0.pe-md-5
           p.mb-0 También se emplean otras técnicas sensoriales que incluyen la determinación del carácter de un olor (mapeo triangular) y el nivel de agrado o desagrado de un olor (tono hedónico). La desventaja de este método es que no es específico y consecuentemente no identifica las especies químicas causantes del olor que está presente en el sitio.
 
     
@@ -538,31 +587,31 @@
         .bg-blue3.p-4.py-3
           p.mb-0 La localización de las estaciones de muestreo será fuera de los límites de las instalaciones de cualquier fuente.
 
-    p.mb-4(data-aos="fade") De acuerdo con el Protocolo para el Monitoreo Control y Vigilancia de Olores Ofensivos, existen dos variables a tener en cuenta, como se muestra en la siguiente tabla:
+    p.mb-4(data-aos="fade") De acuerdo con el Protocolo para el Monitoreo, Control y Vigilancia de Olores Ofensivos, existen dos variables a tener en cuenta, como se muestra en la siguiente tabla:
 
     .row.justify-content-center
-      .col-md-8(data-aos="fade-down")
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 7.] Variables en la medición de olores
-          .tabla-a.tema2.color-secundario
-            table
-              thead
-                tr.bg-secundario
-                  th Meteorología
-                  th Topografía
-              tbody.bg-green2 
-                tr
-                  td 
-                    p Dado que los factores meteorológicos determinan el transporte y dispersión de los contaminantes en la atmósfera, los parámetros meteorológicos con los cuales se debe contar como mínimo son:
-                    ol.lista-ol
-                      li 
-                        span.t-green2.fw-bold 1.
-                        | Velocidad y dirección del viento: con el fin de establecer la dirección de los contaminantes y su dispersión en la atmósfera.
-                      li.mb-1 
-                        span.t-green2.fw-bold 2.
-                        | Temperatura: variable a medir ya que esta puede influir en la generación de sustancias. Otros parámetros como precipitación, nubosidad, humedad y radiación solar completan el panorama de los fenómenos meteorológicos.
-                  td 
-                    p Es un factor importante en la selección de los sitios de monitoreo por el efecto de ésta sobre los vientos locales y las condiciones de estabilidad; en general, mientras más complejo el terreno se necesitarán más sitios de medición.
+      .col-lg-8(data-aos="fade-down")
+        .titulo-sexto.color-acento-contenido
+          p.mb-0 #[b Tabla 7.] Variables en la medición de olores
+        .tabla-a.tema2.color-secundario
+          table
+            thead
+              tr.bg-secundario
+                th Meteorología
+                th Topografía
+            tbody.bg-green2 
+              tr
+                td 
+                  p Dado que los factores meteorológicos determinan el transporte y dispersión de los contaminantes en la atmósfera, los parámetros meteorológicos con los cuales se debe contar como mínimo son:
+                  ol.lista-ol
+                    li 
+                      span.t-green2.fw-bold 1.
+                      | Velocidad y dirección del viento: con el fin de establecer la dirección de los contaminantes y su dispersión en la atmósfera.
+                    li.mb-1 
+                      span.t-green2.fw-bold 2.
+                      | Temperatura: variable a medir ya que esta puede influir en la generación de sustancias. Otros parámetros como precipitación, nubosidad, humedad y radiación solar completan el panorama de los fenómenos meteorológicos.
+                td 
+                  p Es un factor importante en la selección de los sitios de monitoreo por el efecto de ésta sobre los vientos locales y las condiciones de estabilidad; en general, mientras más complejo el terreno se necesitarán más sitios de medición.
 
 
     Separador 
@@ -584,7 +633,7 @@
       .col-md-9.mb-4(data-aos="fade-right")
         p Teniendo en cuenta que las percepciones de los sonidos dependen del sitio, las fuentes generadoras, el clima, entre otros, la resolución 627 de 2006 establece los siguientes horarios para la aplicación de los procedimientos de medición y las normas que le aplican de la siguiente manera:
         .row.justify-content-center.mb-4
-          .col-md-5
+          .col-lg-5
             .bg-yellow.p-4
               h5.mb-0 Diurno: de las 7:01 a las 21:00 horas.
               h5.mb-0 Nocturno: de las 21:01 a las 7:00 horas.
@@ -611,30 +660,30 @@
 
     .row.mb-5.px-md-3(data-aos="fade-down ")
       .col-md-6.px-md-0
-        .hover-tema2.bg-green7.p-4.p-md-5.h-100
+        .hover-tema2.bg-green7.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-2.col-5
+            .col-lg-2.col-md-4.col-5
               img(src='@/assets/curso/temas/tema2/tema2-4-ico1.svg' alt='')
           h5 Clima   
           p.mb-0 Es importante que las mediciones se realicen en tiempo seco; es preferible que durante las mediciones no llueva o se presenten lloviznas, truenos o en el caso extremo presencia de granizo.
       .col-md-6.px-md-0
-        .hover-tema2.bg-green6.p-4.p-md-5.h-100
+        .hover-tema2.bg-green6.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-2.col-5
+            .col-lg-2.col-md-4.col-5
               img(src='@/assets/curso/temas/tema2/tema2-4-ico2.svg' alt='')
           h5 Riesgos de error minimizados o anulados    
           p.mb-0 Adicionalmente los pavimentos y aquellas superficies donde se efectúen las mediciones deben estar completamente secos por ende si esa situación no se presenta las mediciones podrían tener un sesgo de error cuyos resultados NO podrían ser tenidos en cuenta para una mayor representatividad.
       .col-md-6.px-md-0
-        .hover-tema2.bg-green4.p-4.p-md-5.h-100
+        .hover-tema2.bg-green4.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-2.col-5
+            .col-lg-2.col-md-4.col-5
               img(src='@/assets/curso/temas/tema2/tema2-4-ico3.svg' alt='')
           h5 Viento    
           p.mb-0 Otro factor importante que afecta las mediciones es la velocidad del viento. Si es superior a 3m/s se deberán realizar los respectivos ajustes en las calibraciones con el fin de evitar sesgos en la medición, sin embargo, los equipos de medición como los sonómetros incluyen pantallas protectoras contra el viento la velocidad la medición de la velocidad del viento debe hacerse a la misma altura a la que está ubicado el micrófono y en el momento y en el lugar donde se van a realizar las mediciones del ruido.
       .col-md-6.px-md-0
-        .hover-tema2.bg-green2.p-4.p-md-5.h-100
+        .hover-tema2.bg-green2.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-2.col-5
+            .col-lg-2.col-md-4.col-5
               img(src='@/assets/curso/temas/tema2/tema2-4-ico4.svg' alt='')
           h5 Velocidad y dirección del viento   
           p.mb-0 Cuando se hacen mediciones de ruido simultáneamente se debe medir la velocidad y dirección del viento que está circulando en el sector de la medición y para ello se emplea un anemómetro.

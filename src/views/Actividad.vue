@@ -10,7 +10,7 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Alistando materiales, equipos e insumos para la toma de muestras
+          h2 Alistamiento de materiales, equipos e insumos para la toma de muestras
         p.mb-4 Reforzar los conceptos y saberes, para el alistamiento de material de toma de muestras, según los temas estudiados en el componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

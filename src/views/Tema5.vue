@@ -8,11 +8,11 @@
       h1 Calibración de equipos, fichas técnicas y manuales
 
     .row.mb-4
-      .col-md-5.mb-4(data-aos="fade-right")
+      .col-lg-5.mb-4(data-aos="fade-right")
         p Se le llama calibración al conjunto de operaciones que establecen, bajo condiciones especificadas, la relación entre los valores de magnitudes indicados por un instrumento o sistema de medición, o valores representados por una medida materializada o un material de referencia y los correspondientes valores aportados por patrones.
         .bg-blue.p-4
           p.mb-0 Por lo tanto, la calibración solamente se puede realizar a instrumentos de medida de cualquier magnitud (tensión, corriente, resistencia, tiempo, frecuencia, potencia óptica etc.) y que exprese la medida en las unidades básicas del Sistema Internacional (SI) o materiales de referencia.
-      .col-md-7(data-aos="fade-left")
+      .col-lg-7(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema5/img.png' alt='Imagen decorativa')
 
     
@@ -176,7 +176,7 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.justify-content-center.align-items-center
 
-          .col-md-11
+          .col-md-11.d-none.d-lg-block
             SlyderF.text-center.mb-5(columnas="col-lg-6 col-xl-4" data-aos="fade-down")
               .tarjeta.color-acento-contenido.fondo-tarjetas.p-4
                 h5 Identificar los procedimientos de operación 
@@ -196,8 +196,32 @@
               .tarjeta.color-acento-contenido.fondo-tarjetas.p-4
                 h5 Dotar de especificidad el manual 
                 p El manual puede ser tan detallado como se quiera. Hay que tener en cuenta que, si es lo más específico posible, no se dará pauta a la duda. No hay que olvidar que es un documento vivo y puede sufrir modificaciones, por lo que la información debe actualizarse y documentarse para ser compartida con todo el personal involucrado.
-
-
+          
+          .row.d-lg-none.d-flex.mb-5
+            .col-md-6.mb-4  
+              .tarjeta.color-acento-contenido.fondo-tarjetas.p-4.h-100
+                h5 Identificar los procedimientos de operación 
+                p Con base en ellos se deberán separar las actividades que se realizan y se les dará una secuencia.
+            .col-md-6.mb-4  
+              .tarjeta.color-acento-contenido.fondo-tarjetas.p-4.h-100
+                h5 Redactar de la forma más sencilla 
+                p No utilizar palabras demasiado técnicas, ya que la mayoría de los operadores no son personas con conocimientos de expertos.
+            .col-md-6.mb-4  
+              .tarjeta.color-acento-contenido.fondo-tarjetas.p-4.h-100
+                h5 Utilizar imágenes 
+                p La imagen deberá identificar el área de trabajo y cada una de las actividades. Esto ayuda al operador a digerir la información de una manera más sencilla y recordarla posteriormente
+            .col-md-6.mb-4  
+              .tarjeta.color-acento-contenido.fondo-tarjetas.p-4.h-100
+                h5 Dar enfoque
+                p Es muy importante integrar cualquier información que directamente está ligada a la operación, por ejemplo, equipo de seguridad necesario, qué hacer en casos de emergencia etcétera.
+            .col-md-6.mb-4  
+              .tarjeta.color-acento-contenido.fondo-tarjetas.p-4.h-100
+                h5 Publicar el manual 
+                p Este documento deberá estar aprobado por él o los operadores quienes fueron la fuente de información y por quienes autorizan su publicación.
+            .col-md-6.mb-4  
+              .tarjeta.color-acento-contenido.fondo-tarjetas.p-4.h-100
+                h5 Dotar de especificidad el manual 
+                p El manual puede ser tan detallado como se quiera. Hay que tener en cuenta que, si es lo más específico posible, no se dará pauta a la duda. No hay que olvidar que es un documento vivo y puede sufrir modificaciones, por lo que la información debe actualizarse y documentarse para ser compartida con todo el personal involucrado.
 
 
 

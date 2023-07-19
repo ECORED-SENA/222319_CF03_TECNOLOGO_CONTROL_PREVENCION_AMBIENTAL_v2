@@ -90,7 +90,7 @@
     .row.mb-4
       .col-md-8.mb-4(data-aos="fade-right")
         p El agua es indispensable para la vida, porque ningún organismo sobrevive sin ella. Es un constituyente esencial de la materia viva y la fuente de hidrógeno para los organismos. También influye en ellos a través de la atmósfera y el clima.
-        p En relación con los seres vivos, el gua:
+        p En relación con los seres vivos, el agua:
         .tarjeta.fondo-sliderA.p-4.p-md-5.pb-md-3
           SlyderA(tipo="b" data-aos="fade-down")
             .row.justify-content-center
@@ -180,14 +180,14 @@
       .col-md-6.px-md-0
         .bg-green8.p-4.p-md-5.h-100
           .row.mb-4
-            .col-md-2.col-5
+            .col-lg-2.col-5
               img(src='@/assets/curso/temas/tema1/ico1.svg' alt='')
           h5 Propiedades físicas de un suelo    
           p.mb-0 Son el resultado de la interacción que se origina entre las distintas fases del mismo (suelo, agua y aire) y la proporción en la que se encuentran cada una de estas.
       .col-md-6.px-md-0
         .bg-green4.p-4.p-md-5.h-100
           .row.mb-4
-            .col-md-2.col-5
+            .col-lg-2.col-5
               img(src='@/assets/curso/temas/tema1/ico1.svg' alt='')
           h5 Condición física de un suelo 
           p.mb-0 Determina su capacidad de sostenimiento, facilidad para la penetración de raíces, circulación del aire, capacidad de almacenamiento de agua, drenaje, retención de nutrientes, entre otros factores.
@@ -196,9 +196,9 @@
 
     .row(data-aos="fade-down")
       .col-md-4.mb-4
-        .bg-blue3.p-4.p-md-5.h-100
+        .bg-blue3.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-3.col-5
+            .col-lg-3.col-md-7.col-5
               img(src='@/assets/curso/temas/tema1/ico2.svg' alt='')
           h5 Propiedades físicas 
           ul.lista-ul--color.color-secundario.fa-ul 
@@ -218,9 +218,9 @@
               i.fas.fa-check
               | Porosidad capilar.
       .col-md-4.mb-4  
-        .bg-green2.p-4.p-md-5.h-100
+        .bg-green2.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-3.col-5
+            .col-lg-3.col-md-7.col-5
               img(src='@/assets/curso/temas/tema1/ico3.svg' alt='')
           h5 Propiedades químicas  
           ul.lista-ul--color.color-secundario.fa-ul 
@@ -237,9 +237,9 @@
               i.fas.fa-check
               | Porcentaje de saturación de base.
       .col-md-4.mb-4
-        .bg-blue3.p-4.p-md-5.h-100
+        .bg-blue3.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-3.col-5
+            .col-lg-3.col-md-7.col-5
               img(src='@/assets/curso/temas/tema1/ico4.svg' alt='')
           h5 Propiedades biológicas    
           ul.lista-ul--color.color-secundario.fa-ul 
@@ -262,7 +262,7 @@
     p.mb-4(data-aos="fade") La tabla que se muestra enseguida, enuncia los tipos de suelos:
 
     .row.justify-content-center.mb-5
-      .col-md-8(data-aos="fade-down")
+      .col-lg-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Tabla 1.] Tipos de suelos y sus características
           .tabla-a.tema1.color-secundario.tema1-1
@@ -280,10 +280,10 @@
                   td.bg-green4.border-table-bottom Es de color amarillo o rojizo compuesto de arcilla sílice.
                 tr
                   td.bg-white.border-table-right.border-table-bottom ARENOSO
-                  td.bg-green4.border-table-bottom De color gris blanco rojizo amarillo o negro compuesto de arena.
+                  td.bg-green4.border-table-bottom De color gris, blanco, rojizo, amarillo o negro compuesto de arena.
                 tr
                   td.bg-white.border-table-right.border-table-bottom CALIZO  
-                  td.bg-green4.border-table-bottom De color blanco amarillento y sus partículas son finas.
+                  td.bg-green4.border-table-bottom De color blanco, amarillento y sus partículas son finas.
                 tr
                   td.bg-white.border-table-right PEDREGOSO
                   td.bg-green4 De color gris y está formado por rocas de diversos tamaños no retienen el agua.
@@ -291,9 +291,9 @@
 
     .bg-blue4(data-aos="fade-down")
       .row.align-items-center
-        .col-md-2.col-5.px-md-4
-          img.px-md-3.px-lg-4(src='@/assets/curso/temas/tema2/importante.svg' alt='')
-        .col-md-10.py-4.pe-md-5
+        .col-lg-2.col-md-2.col-5.px-lg-4
+          img.ps-md-2.px-lg-4(src='@/assets/curso/temas/tema2/importante.svg' alt='')
+        .col-lg-10.col-md-10.py-4.pe-lg-5
           p.mb-0 
             b La contaminación del suelo 
             | es una degradación de la calidad del suelo asociada a la presencia de sustancias químicas. Se define como el aumento en la concentración de compuestos químicos, de origen antropogénico, que provoca cambios perjudiciales y reduce su empleo potencial, tanto por parte de la actividad humana, como por la naturaleza.
@@ -347,31 +347,31 @@
 
     .row(data-aos="fade-down")
       .col-md-4.mb-4
-        .bg-blue3.p-4.p-md-5.h-100
+        .bg-blue3.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-4.col-5
-              img.pe-md-4(src='@/assets/curso/temas/tema1/ico5.svg' alt='')
+            .col-lg-4.col-5
+              img.pe-lg-4(src='@/assets/curso/temas/tema1/ico5.svg' alt='')
           h5 Pequeñas porciones de aire 
           p A nivel de trazas (cantidades muy pequeñas) y dependiendo de la ubicación geográfica, se encuentran presentes compuestos como monóxido de nitrógeno NO, ozono O3, dióxido de azufre SO2, dióxido de nitrógeno NO2, amoníaco NH3 y monóxido de carbono CO.
       .col-md-4.mb-4  
-        .bg-blue4.p-4.p-md-5.h-100
+        .bg-blue4.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-4.col-5
-              img.pe-md-4(src='@/assets/curso/temas/tema1/ico6.svg' alt='')
+            .col-lg-4.col-5
+              img.pe-lg-4(src='@/assets/curso/temas/tema1/ico6.svg' alt='')
           h5 Proporción de gases en el aire  
           p Las proporciones de estos gases se pueden considerar más o menos constantes hasta una altura aproximada de 25 Km, aunque la concentración de cada uno disminuye con la altura, excepto en los casos de componentes minoritarios como el ozono O3 y los compuestos de nitrógeno, cloro y azufre.
       .col-md-4.mb-4
-        .bg-blue3.p-4.p-md-5.h-100
+        .bg-blue3.p-4.p-lg-5.h-100
           .row.mb-4
-            .col-md-4.col-5
-              img.pe-md-4(src='@/assets/curso/temas/tema1/ico7.svg' alt='')
+            .col-lg-4.col-5
+              img.pe-lg-4(src='@/assets/curso/temas/tema1/ico7.svg' alt='')
           h5 Componentes fijos del aire   
-          p Existen dos componentes que siempre se encuentran presentes en el aire en cantidades variables: el agua, en sus tres estados (sólido, líquido y gas) y el polvo atmosférico (humo, sal, arena fina, cenizas, esporas, polen, microorganismos, etc). La concentración de vapor de agua puede variar desde 0% en zonas desérticas hasta un 5 a 6% en zonas tropicales.
+          p Existen dos componentes que siempre se encuentran presentes en el aire en cantidades variables: el agua, en sus tres estados (sólido, líquido y gas) y el polvo atmosférico (humo, sal, arena fina, cenizas, esporas, polen, microorganismos, etc.). La concentración de vapor de agua puede variar desde 0% en zonas desérticas hasta un 5 a 6% en zonas tropicales.
 
     p.mb-4(data-aos="fade") En cuanto a las propiedades del aire, estas son:
 
     .row.justify-content-center.mb-5
-      .col-md-8(data-aos="fade-down")
+      .col-lg-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Tabla 2.] Propiedades del aire
           .tabla-a.tema1.color-secundario
@@ -433,14 +433,14 @@
         p Empieza después de los 100km. Y va desapareciendo gradualmente hasta los 500km de altura. En esta región, constituida por oxígeno (02), la temperatura aumenta hasta los 1000°C; los rayos X y ultravioleta del Sol ionizan el aire enrarecido, produciendo átomos y moléculas cargados eléctricamente (que reciben el nombre de iones) y electrones libres.
       .tarjeta.bg-yellow.p-3(x="71%" y="10%" numero="+")
         .h4.mb-2 Exósfera: 
-        p Comienza a 500km. de altura y extiende más allá de los 1000km; está formada por una capa de helio y otra de hidrogeno. Después de esa capa se halla una enorme banda de radiaciones (conocida como magnetosfera) que se extiende hasta unos 55000km de altura, aunque no constituye propiamente un estrato atmosférico.
+        p Comienza a 500km. de altura y extiende más allá de los 1000km; está formada por una capa de helio y otra de hidrógeno. Después de esa capa se halla una enorme banda de radiaciones (conocida como magnetosfera) que se extiende hasta unos 55000km de altura, aunque no constituye propiamente un estrato atmosférico.
 
 
     .bg-blue4.mb-5(data-aos="fade-down")
       .row.align-items-center
-        .col-md-2.col-5.px-md-4
+        .col-lg-2.col-md-3.col-5.px-lg-4
           img.px-md-4(src='@/assets/curso/temas/tema2/importante.svg' alt='')
-        .col-md-10.py-4.pe-md-5
+        .col-lg-10.col-md-9.py-4.pe-md-5
           p.mb-0 
             b La contaminación del aire 
             | es uno de los problemas ambientales más importantes, y es resultado de las actividades del hombre. Las causas que originan esta contaminación son diversas, pero el mayor índice es provocado por las actividades industriales, comerciales, domésticas y agropecuarias.
@@ -487,9 +487,9 @@
 
           p.mb-4(data-aos="fade") Para comprender más y mejor, los conceptos y metodologías relacionados con el aire y los procesos olfativos, aprópiese de las siguientes definiciones:
 
-          .col-md-3.mb-4.mb-md-5.px-md-0(data-aos="fade-right")
+          .col-lg-3.col-6.mb-4.mb-lg-5.px-md-0(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema1/img11.svg' alt=' ')
-          .col-md-7.mb-4.mb-md-5.px-md-0(data-aos="fade-left")
+          .col-lg-7.mb-4.mb-md-5.px-md-0.d-none.d-lg-block(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
                 h5 Olor  
@@ -524,10 +524,45 @@
               .row
                 h5 Olfatometría
                 p Técnica sensorial de medición de olores que se usa para determinar el grado de molestia que pueden ocasionar ciertos olores a la población. 
+          .col-12.d-lg-none.d-block.mb-5
+            .bg-white.box-shadow.p-4.px-md-5
+              .row
+                h5 Olor  
+                p Propiedad organoléptica perceptible por el órgano olfativo cuando inspira determinadas sustancias volátiles. 
+              .row
+                h5 Olor ofensivo   
+                p Es el olor generado por sustancias o actividades industriales, comerciales o de servicio, que produce fastidio, aunque no cause daño a la salud humana.
+              .row
+                h5 Sustancia de olor ofensivo   
+                p Es aquella que, por sus propiedades organolépticas, composición y tiempo de exposición puede causar olores desagradables. 
+              .row
+                h5 Emisión  
+                p Transferencia de contaminantes de la atmósfera a un receptor. Se entiende por inmisión la acción opuesta a la emisión. Aire inmiscible es el aire respirable al nivel de la tropósfera. 
+              .row
+                h5 Factor hedónico   
+                p Factor subjetivo que permite definir si un olor es agradable, desagradable, nauseabundo, etc. 
+              .row
+                h5 Umbral   
+                p Valor mínimo de una magnitud a partir del cual se produce un efecto determinado. 
+              .row
+                h5 Umbral de molestia   
+                p Es la concentración a la que una pequeña parte de la población (< 5%) manifiesta molestias durante un periodo corto de tiempo. Dado que la sensación de molestia puede estar influenciada por factores sicológicos y socioeconómicos un umbral de molestia no puede definirse solo con base en la concentración. 
+              .row
+                h5 Umbral de tolerancia   
+                p El umbral de tolerancia es equivalente al umbral de molestia. 
+              .row
+                h5 Unidad de olor   
+                p Es la cantidad de (una mezcla de) sustancias olorosas presentes en un metro cúbico de gas oloroso (en condiciones normales 1 atmósfera de presión y 0 °C de temperatura) origina una respuesta fisiológica en el umbral del panel. 
+              .row
+                h5 Unidad de olor europea   
+                p Cantidad de sustancia olorosa qué coma cuando se evapora en 1 metro cúbico de gas neutro en condiciones normales, origina una respuesta fisiológica de un panel (umbral de detección) equivalente al que origina una masa de olor de referencia europea more evaporada en 1 metro cúbico de gas neutro en condiciones normales. 
+              .row
+                h5 Olfatometría
+                p Técnica sensorial de medición de olores que se usa para determinar el grado de molestia que pueden ocasionar ciertos olores a la población. 
 
-          .col-md-5.mb-4.mb-md-0(data-aos="fade-right")
+          .col-lg-5.mb-4.mb-md-0(data-aos="fade-right")
             p La normatividad en olores es un aspecto de compleja regulación debido a que las molestias que producen los olores se convierten de cierta manera en conceptos muy subjetivos y dependen en cierta manera de la percepción individual y de las personas que están expuestas al olor con diferentes niveles de sensibilidad y percepción.
-          .col-md-7.mb-4.mb-md-0(data-aos="fade-left")
+          .col-lg-7.mb-4.mb-md-0(data-aos="fade-left")
             .tarjeta.bg-degrade-green.p-3
               .row.justify-content-around.align-items-center
                 .col-3.col-sm-2.col-lg-2
@@ -588,7 +623,7 @@
     p.mb-4(data-aos="fade") La siguiente tabla le muestra algunos conceptos y definiciones clave para comprender las características y tipos de contaminación en el aire, por ruido:
 
     .row.justify-content-center.mb-4
-      .col-md-8(data-aos="fade-down")
+      .col-lg-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Tabla 3.] Conceptos y definiciones sobre contaminación del aire por ruido
           .tabla-a.tema1.color-secundario
@@ -616,7 +651,7 @@
 
 
     .row.justify-content-center(data-aos="fade-down")
-      .col-md-8
+      .col-lg-8
         .tarjeta.bg-degrade-green.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2
@@ -624,7 +659,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  h3.mb-1 Reglamentacion del ruido en Colombia.
+                  h3.mb-1 Reglamentación del ruido en Colombia.
                   p.mb-0 Conozca algunas generalidades de la historia de la reglamentación del ruido en Colombia, estudiando con atención el siguiente anexo:
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2_ReglamentacionDelRuidoEnColombia.pdf')" target="_blank")

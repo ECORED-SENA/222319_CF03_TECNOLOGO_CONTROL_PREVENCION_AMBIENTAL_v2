@@ -41,7 +41,7 @@
     p.mb-4(data-aos="fade") La siguiente tabla, enuncia los más comunes equipos y materiales usados en la toma de muestras de agua:
 
     .row.justify-content-center.mb-5
-      .col-md-8(data-aos="fade-down")
+      .col-lg-8(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido
             p.mb-0 #[b Tabla 8.] Equipos y materiales para la toma de muestras de agua
           .tabla-a.tema1.color-secundario
@@ -225,53 +225,67 @@
             | Tabla de apoyo con agarradera para escribir.
           li.mb-3
             i.fas.fa-check
-            | Rotuladores y gomas de borrar apropiados para tomar notas, identificar muestras (por ejemplo, rotuladores de secados rápidos e indelebles al agua).
+            P 
+              span.fw-bold Rotuladores y gomas de borrar: 
+              | apropiados para tomar notas, identificar muestras (por ejemplo, rotuladores de secados rápidos e indelebles al agua).
           li.mb-3
             i.fas.fa-check
-            | Machete este tipo de herramienta puede ser necesaria para limpiar la vegetación cuando se toman perfiles.
+            p 
+              span.fw-bold Machete: 
+              | este tipo de herramienta puede ser necesaria para limpiar la vegetación cuando se toman perfiles.
           li.mb-3
             i.fas.fa-check
-            | #[b Barrenos:] de taladro, de sonda o tubos y de tipo holandés.
+            P 
+              span.fw-bold Barrenos: 
+              | de taladro, de sonda o tubos y de tipo holandés.
           li.mb-3
             i.fas.fa-check
-            | #[b Balde:] se requiere para depositar allí las muestras recolectadas. Se debe asegurar la limpieza y asepsia del recipiente, para evitar posible contaminación de la muestra.
+            P 
+              span.fw-bold Balde: 
+              | se requiere para depositar allí las muestras recolectadas. Se debe asegurar la limpieza y asepsia del recipiente, para evitar posible contaminación de la muestra.
           li.mb-3
             i.fas.fa-check
-            | #[b Bolsas plásticas:] deben ser livianas, fáciles de llevar y de bajo costo. Muchas de ellas deben ser revisadas y analizadas para establecer el contenido de PCB (Bifenil policlorados), ya que puede absorber algunos componentes de las sustancias contaminantes.
+            P 
+              span.fw-bold Bolsas plásticas: 
+              | deben ser livianas, fáciles de llevar y de bajo costo. Muchas de ellas deben ser revisadas y analizadas para establecer el contenido de PCB (Bifenil policlorados), ya que puede absorber algunos componentes de las sustancias contaminantes.
           li.mb-3
             i.fas.fa-check
-            | #[b Recipientes de vidrio:] usados con frecuencia cuando se utilizan indicadores de tipo biológico, los que deben ser refrigerados para su preservación. Cuando se usan frascos o botellas de vidrio para tal fin, se recomienda esterilizarlos en autoclaves para garantizar su asepsia.
+            P 
+              span.fw-bold Recipientes de vidrio: 
+              | usados con frecuencia cuando se utilizan indicadores de tipo biológico, los que deben ser refrigerados para su preservación. Cuando se usan frascos o botellas de vidrio para tal fin, se recomienda esterilizarlos en autoclaves para garantizar su asepsia.
           li
             i.fas.fa-check
-            | #[b Neveras tipo picnic:] requeridas para congelar o refrigerar las muestras con hielo seco. Las muestras que se refrigeren deben empacarse previamente en recipientes de vidrio.
+            P 
+              span.fw-bold Neveras tipo picnic: 
+              | requeridas para congelar o refrigerar las muestras con hielo seco. Las muestras que se refrigeren deben empacarse previamente en recipientes de vidrio.
 
     p.mb-4(data-aos="fade") Los equipos utilizados en campo, para la toma de muestras de suelo, son:
 
 
     .row(data-aos="fade-down")
-      .col-md-3.mb-4
-        .bg-blue3.p-4.p-md-5.h-100
+      .col-lg-3.col-md-6.mb-4
+        .bg-blue3.p-4.p-lg-5.h-100
           .row.mb-4
             .col-md-5.col-5
               img(src='@/assets/curso/temas/tema3/ico1.svg' alt='')
           h5 Indicador de Ph El pH
           p.mb-0 El pH determina que tan acido está el suelo y tiene un rango de 4-9. El pH se determina sobre la base de la comparación del color.
-      .col-md-3.mb-4  
-        .bg-green2.p-4.p-md-5.h-100
+      .col-lg-3.col-md-6.mb-4  
+        .bg-green2.p-4.p-lg-5.h-100
           .row.mb-4
             .col-md-5.col-5
               img(src='@/assets/curso/temas/tema3/ico2.svg' alt='')
           h5 Juego de tamices de bolsillo  
           p.mb-0 Juego de tamices manuales, tamaño de bolsillo Altura: 40 mm Contiene 6 discos intercambiables Tamaño de poro: 2,0 – 1,0-0,5-0,25-0,125 y 0,063 mm Diámetro 100mm.
-      .col-md-3.mb-4
-        .bg-blue3.p-4.p-md-5.h-100
+      .col-lg-3.col-md-6.mb-4
+        .bg-blue3.p-4.p-lg-5.h-100
           .row.mb-4
             .col-md-5.col-5
               img(src='@/assets/curso/temas/tema3/ico3.svg' alt='')
           h5 Penetrómetro de bolsillo 
           p.mb-0 Se utiliza específicamente para determinar la resistencia a la penetración de las capas superiores del suelo. Precisión de lectura: 3% Profundidad máxima de medición 1 cm Intervalo de medición 0 – 500 kPa.
-      .col-md-3.mb-4  
-        .bg-green2.p-4.p-md-5.h-100
+      .col-lg-3.col-md-6.mb-4  
+        .bg-green2.p-4.p-lg-5.h-100
           .row.mb-4
             .col-md-5.col-5
               img(src='@/assets/curso/temas/tema3/ico4.svg' alt='')
@@ -289,9 +303,9 @@
           .row(titulo="Equipo de muestreo para fuente puntual")
             p (Ductos o Chimeneas) Se utiliza el método de la sonda. Este método consiste en la “aspiración” mediante una sonda de una fracción alícuota del gas emitido por la fuente.
           .row(titulo="Muestreo de fuentes difusas aireadas")
-            p (superficiales activas) Para este tipo de fuentes (reactor biológico de una depuradora o un biofiltro) se utiliza el método de la Campana En estas situaciones se coloca una campana de base cuadrada (1 m2) sobre la superficie a muestrear, de manera que, a la salida de esta, la muestra es succionada mediante una sonda.
+            p (Superficiales activas) Para este tipo de fuentes (reactor biológico de una depuradora o un biofiltro) se utiliza el método de la Campana En estas situaciones se coloca una campana de base cuadrada (1 m2) sobre la superficie a muestrear, de manera que, a la salida de esta, la muestra es succionada mediante una sonda.
           .row(titulo="Muestreo de fuentes difusas no aireadas")
-            p (superficiales pasivas). Para este tipo de fuentes (decantador de una depuradora o una parva o pila de compost) se utiliza el método del túnel del viento o “cámara de flujo” (conocida también como Caja Lindvall Para ello, mediante un soplante, se insufla un caudal conocido de aire previamente filtrado, a través de la cámara de flujo, tomando la muestra mediante una sonda a la salida de la misma.
+            p (Superficiales pasivas). Para este tipo de fuentes (decantador de una depuradora o una parva o pila de compost) se utiliza el método del túnel del viento o “cámara de flujo” (conocida también como Caja Lindvall Para ello, mediante un soplante, se insufla un caudal conocido de aire previamente filtrado, a través de la cámara de flujo, tomando la muestra mediante una sonda a la salida de la misma.
       .col-md-4.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img4.png' alt='')
 
@@ -322,9 +336,9 @@
             p.mb-4(data-aos="fade") A continuación, se enuncian los principales requerimientos en las mediciones de ruido:
 
 
-          .col-md-3.mb-4.mb-md-5.px-md-0(data-aos="fade-right")
+          .col-lg-3.col-6.mb-4.mb-lg-5.px-md-0(data-aos="fade-right")
             img(src='@/assets/curso/temas/tema3/img6.png' alt='')
-          .col-md-9.mb-4.mb-md-5.px-md-0(data-aos="fade-left")
+          .col-lg-9.mb-4.mb-lg-5.px-md-0.d-none.d-lg-block(data-aos="fade-left")
             SlyderE.bg-white.box-shadow.p-4.px-md-5(indicadores="derecha")
               .row
                 .col-md-8
@@ -345,7 +359,7 @@
               .row
                 .col-md-8
                   h5 Trípode    
-                  p Estructura u armazón de 3 puntos de apoyo, generalmente articulados y plegables. Sirve para sostener el sonómetro cuya capacidad de extensión telescópica debe ser hasta de 4 metros de altura el giro sobre su propio eje debe ser de 360º para poder hacer las mediciones en los diferentes puntos de acuerdo a lo establecido en el protocolo para el monitoreo de ruido MADS
+                  p Estructura u armazón de 3 puntos de apoyo, generalmente articulados y plegables. Sirve para sostener el sonómetro cuya capacidad de extensión telescópica debe ser hasta de 4 metros de altura el giro sobre su propio eje debe ser de 360º para poder hacer las mediciones en los diferentes puntos de acuerdo a lo establecido en el protocolo para el monitoreo de ruido MADS.
                 .col-md-4
                   img(src='@/assets/curso/temas/tema3/slide-img3.png' alt='')
               .row
@@ -361,8 +375,43 @@
                   p Ubica con mucha precisión los puntos en donde se va a ubicar los puntos del monitoreo.
                 .col-md-4
                   img(src='@/assets/curso/temas/tema3/slide-img5.png' alt='')
-
-
+          .col-12.d-lg-none.d-block.mb-5
+            .bg-white.box-shadow.p-4.px-md-5
+              .row.mb-4
+                .col-md-8
+                  h5 Sonómetro   
+                  p Internacionalmente los sonómetros que son aceptados son del tipo CLASE 1, los cuales son empleados para hacer las mediciones de ruido ambiental de acuerdo con especificaciones técnicas internacionales que establecen una precisión mayor en la medición. 
+                  p La Precisión de los sonómetros según la norma IEC 61672. 
+                  p.mb-0 Clase 1. Precisión ± 1 dB
+                  p Clase 2. Precisión ± 1.5 dB
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img1.png' alt='')
+              .row.mb-4
+                .col-md-8
+                  h5 Pistófono o Calibrador acústico    
+                  p Según el “Protocolo para la medición de emisión de ruido, ruido ambiental” La verificación y/o ajuste de la calibración de los sonómetros se deben realizar con calibradores o pistófonos que cumplan con la norma IEC 60942:2003. 
+                  p Se debe verificar el cumplimiento del calibrador o pistófono con los requisitos de la norma IEC 60942:2003 por lo menos una vez al año y el cumplimiento del sonómetro con los requisitos de la norma IEC 61672-1:2002 según la clase del sonómetro por lo menos cada dos años en un laboratorio con trazabilidad a patrones nacionales.
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img2.png' alt='')
+              .row.mb-4
+                .col-md-8
+                  h5 Trípode    
+                  p Estructura u armazón de 3 puntos de apoyo, generalmente articulados y plegables. Sirve para sostener el sonómetro cuya capacidad de extensión telescópica debe ser hasta de 4 metros de altura el giro sobre su propio eje debe ser de 360º para poder hacer las mediciones en los diferentes puntos de acuerdo a lo establecido en el protocolo para el monitoreo de ruido MADS.
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img3.png' alt='')
+              .row.mb-4
+                .col-md-8
+                  h5 Anemómetro   
+                  p Se emplea, en este caso, para medir la velocidad (fuerza del viento) y la dirección del viento. Es uno de los aparatos meteorológicos que se deben emplear en la medición del ruido puesto que su función consiste en determinar si la velocidad del viento está por encima de los 3 m/s.
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img4.png' alt='')
+              .row.mb-4
+                .col-md-8
+                  h5 GPS Sistema de Posicionamiento Global    
+                  p Es un instrumento de localización que toma como referencia, para la ubicación y navegación, los satélites que están estacionados en la órbita del planeta. Permiten determinar la posición de un objeto o persona con una precisión de hasta 1 metro, su funcionamiento o sistema de navegación se reporta en grados, minutos y segundos ubicando la longitud y la latitud del punto que se va a referenciar. 
+                  p Ubica con mucha precisión los puntos en donde se va a ubicar los puntos del monitoreo.
+                .col-md-4
+                  img(src='@/assets/curso/temas/tema3/slide-img5.png' alt='')
 
 
 </template>
